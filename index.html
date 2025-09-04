@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PostPlus - Logistics Service</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Country Banner -->
+    <div class="country-banner bg-light py-2 px-3 d-flex flex-column flex-md-row align-items-center" id="countryBanner">
+        <button type="button" class="btn-close ms-auto ms-md-0 me-md-2 order-md-1" id="closeBtn" aria-label="Close"></button>
+        
+        <div class="banner-content text-center text-md-start mx-auto mx-md-0 my-2 my-md-0">
+            <i class="fas fa-globe text-muted me-2"></i>
+            <span class="text-muted">You're on the United States website. Choose your country to see location-specific content.</span>
+        </div>
+        
+        <div class="flag-container ms-md-auto mt-2 mt-md-0">
+            <button class="btn btn-flag btn-outline-secondary d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 512" class="flag-icon"><g fill-rule="nonzero"><path fill="#999" d="M256 0c70.68 0 134.69 28.66 181.01 74.99C483.34 121.31 512 185.32 512 256c0 70.68-28.66 134.69-74.99 181.01C390.69 483.34 326.68 512 256 512c-70.68 0-134.69-28.66-181.01-74.99C28.66 390.69 0 326.68 0 256c0-70.68 28.66-134.69 74.99-181.01C121.31 28.66 185.32 0 256 0z"/><path fill="#fff" d="M256 19.48c65.29 0 124.46 26.48 167.25 69.27l1.09 1.18c42.14 42.72 68.17 101.37 68.17 166.06 0 65.31-26.49 124.46-69.28 167.25l-1.19 1.09c-42.72 42.16-101.4 68.19-166.04 68.19-65.23 0-124.38-26.51-167.18-69.33-42.84-42.74-69.34-101.89-69.34-167.2 0-65.31 26.48-124.45 69.27-167.24C131.54 45.96 190.69 19.48 256 19.48z"/><path fill="#B22234" d="M256 39.59c39.48 0 76.49 10.58 108.37 29.04H147.63C179.51 50.17 216.52 39.59 256 39.59zm155.84 66.28c9.16 9.48 17.42 19.82 24.72 30.85H75.43c7.29-11.09 15.59-21.46 24.72-30.85h311.69zm44.41 67.97c4.1 9.97 7.46 20.28 10.04 30.92H45.71c2.61-10.62 6.03-20.9 10.04-30.92h400.5zm15.68 68.08c.3 4.68.47 9.37.47 14.07 0 5.67-.22 11.3-.65 16.85H40.25c-.42-5.59-.65-11.26-.65-16.85 0-4.73.17-9.42.47-14.07h431.86zm-6.32 68.06a212.979 212.979 0 0 1-10.52 30.94H56.91c-4.25-10.02-7.83-20.39-10.52-30.94h419.22zm-30.9 68.06c-7.63 11.14-16.25 21.56-25.78 31.07H103.07c-9.5-9.51-18.15-19.93-25.78-31.07h357.42zm-75.27 68.08c-30.86 16.77-66.16 26.29-103.44 26.29-37.47 0-72.72-9.53-103.44-26.29h206.88z"/><path fill="#3C3B6E" d="M268.16 39.94v234.41H40.39c-.53-6.07-.79-12.16-.79-18.36 0-119.51 96.88-216.4 216.4-216.4 4.08 0 8.14.13 12.16.35z"/><path fill="#fff" d="m50.81 187.06.98 3.06-1.6-1.18.62-1.88zm189.29 49.91 8.01 24.66-20.96-15.25h25.89l-20.97 15.25 8.03-24.66zm0-47.66 8.01 24.62-20.96-15.22h25.89l-20.97 15.22 8.03-24.62zm0-47.69 8.01 24.65-20.96-15.26h25.89l-20.97 15.26 8.03-24.65zm0-47.66 8.01 24.62-20.96-15.23h25.89l-20.97 15.23 8.03-24.62zm0-47.67 8.01 24.63-20.96-15.24h25.89l-20.97 15.24 8.03-24.63zm-28.08 166.85 8.03 24.64-20.98-15.25h25.89l-20.86 15.25 7.92-24.64zm0-47.67 8.03 24.65-20.98-15.26h25.89l-20.86 15.26 7.92-24.65zm0-47.66 8.03 24.62-20.98-15.23h25.89l-20.86 15.23 7.92-24.62zm0-47.7 8.03 24.65-20.98-15.25h25.89L204.1 94.76l7.92-24.65zm-27.97 166.86 8.03 24.66-20.98-15.25h25.91l-20.97 15.25 8.01-24.66zm0-47.66 8.03 24.62-20.98-15.22h25.91l-20.97 15.22 8.01-24.62zm0-47.69 8.03 24.65-20.98-15.26h25.91l-20.97 15.26 8.01-24.65zm0-47.66 8.03 24.62-20.98-15.23h25.91l-20.97 15.23 8.01-24.62zm1.64-42.68 6.39 19.64-19.93-14.48 1.86-.76h23l-20.97 15.24 5.97-18.34 3.68-1.3zm-29.71 161.86 8.01 24.64-20.97-15.25h25.91l-20.98 15.25 8.03-24.64zm0-47.67 8.01 24.65-20.97-15.26h25.91l-20.98 15.26 8.03-24.65zm0-47.66 8.01 24.62-20.97-15.23h25.91l-20.98 15.23 8.03-24.62zm0-47.7 8.01 24.65-20.97-15.25h25.91l-20.98 15.25 8.03-24.65zm-27.97 166.86 7.92 24.66-20.86-15.25h25.89l-20.98 15.25 8.03-24.66zm0-47.66 7.92 24.62-20.86-15.22h25.89l-20.98 15.22 8.03-24.62zm0-47.69 7.92 24.65-20.86-15.26h25.89l-20.98 15.26 8.03-24.65zm0-47.66 7.92 24.62-20.86-15.23h25.89l-20.98 15.23 8.03-24.62zM99.93 213.14l8.03 24.64-20.97-15.25h25.9l-20.97 15.25 8.01-24.64zm0-47.67 8.03 24.65-20.97-15.26h25.9l-20.97 15.26 8.01-24.65zm0-47.66 8.03 24.62-20.97-15.23h25.9l-20.97 15.23 8.01-24.62zM71.87 236.97l8.01 24.66-20.98-15.25h26.02l-21.08 15.25 8.03-24.66zm0-47.66 8.01 24.62-20.98-15.22h26.02l-21.08 15.22 8.03-24.62zm.14-47.26 7.87 24.22-15.36-11.17 2.2-4.09h18.2l-21.08 15.26 7.6-23.32.57-.9zM43.9 213.14l7.89 24.64-10.63-7.77-.47 4.27 16.15-11.75H42.16c.48-3.02 1.02-6.02 1.62-8.99l.12-.4zm11.44-38.28h1.5l-2.14 1.57.64-1.57z"/></g></svg>
+                    <span class="ms-2">United States</span>
+                </div>
+                <i class="fas fa-chevron-right ms-3"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="countryModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"><i class="fas fa-globe me-2"></i>Select Your Region</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="mb-3">Choose your region to see location-specific content:</p>
+                    <a href="#" class="region-link d-flex align-items-center p-3 mb-2 text-decoration-none text-primary rounded" id="usLink">
+                        <i class="fas fa-flag-usa me-3"></i>
+                        <span>United States</span>
+                    </a>
+                    <a href="https://post.plus/contact-us" class="region-link d-flex align-items-center p-3 text-decoration-none text-primary rounded" id="otherRegionsLink" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-globe-americas me-3"></i>
+                        <span>Other Regions</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5" style="background: #002B53;">
+            <!-- <h2 class="mb-2 text-white">PostPlus</h2> -->
+             <img src="img/logo-white.svg" alt="">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="track-package.html" class="btn btn-primary nav-item nav-link text-light" style="padding:20px"><strong>Track Package</strong></a>
+            </div>
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-envelope text-primary me-3"></i><span style="color:#002B53">info@post-plus.us</span></h4>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5">
+        <div class="owl-carousel header-carousel position-relative mb-5">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Reliable Logistics Services</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Your Trusted Partner for Global <span class="text-primary">Logistics</span> Solution</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">We provide fast, secure, and efficient logistics solutions for businesses worldwide. Our team is dedicated to delivering exceptional service and exceeding your expectations.</p>
+                                <a href="track-package.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"><i class="fa fa-angle-left"></i> Track Package</a>
+                                <a href="#quote-container" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight" style="background:#002B53; border: 1px solid #002B53">Free Quote <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, .5);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Expert Logistics Solutions</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Your One-Stop Shop for Seamless <span class="text-primary">Global</span> Deliveries</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">We specialize in providing tailored logistics services that meet the unique needs of your business. From warehousing to transportation, we've got you covered.</p>
+                                <a href="track-package.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"><i class="fa fa-angle-left"></i> Track Package</a>
+                                <a href="#quote-container" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight" style="background:#002B53; border: 1px solid #002B53">Free Quote <i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container about py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
+                    <h1 class="mb-5">Quick Transport and Logistics Solutions</h1>
+                    <p class="mb-5">Efficient delivery services guaranteed. Timely arrival and great communication. Expertise ensures customer satisfaction. Professional team with years of experience.</p>
+                    <div class="row g-4 mb-5">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                            <i class="fa fa-globe fa-3x text-primary mb-3"></i>
+                            <h5>Global Coverage</h5>
+                            <p class="m-0">Global Coverage Worldwide shipping made easy. Fast and secure delivery options. Our network spans the globe. Reliable logistics solutions everywhere.</p>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                            <i class="fa fa-shipping-fast fa-3x text-primary mb-3"></i>
+                            <h5>On Time Delivery</h5>
+                            <p class="m-0">Reliable shipping every time. Punctual delivery guaranteed. We prioritize your schedule. Fast and efficient logistics solutions.</p>
+                        </div>
+                    </div>
+                    <a href="service.html" class="btn btn-primary py-3 px-5">Explore More <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Fact Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Some Facts</h6>
+                    <h1 class="mb-5">#1 Place To Manage All Of Your Shipments</h1>
+                    <p class="mb-5">Streamline your logistics with ease. One platform for all your shipping needs. Efficient tracking and management solutions. Simplify your shipping experience today.</p>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-envelope fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                        <div class="ps-4">
+                            <h6>Email for any query!</h6>
+                            <h3 class="text-primary m-0">info@post-plus.us</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-sm-6">
+                            <div class="bg-primary p-4 mb-4 wow fadeIn" data-wow-delay="0.3s">
+                                <i class="fa fa-users fa-2x text-white mb-3"></i>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">172,452</h2>
+                                <p class="text-white mb-0">Happy Clients</p>
+                            </div>
+                            <div class="p-4 wow fadeIn" data-wow-delay="0.5s" style="background:#002B53">
+                                <i class="fa fa-piggy-bank fa-2x text-white mb-3"></i>
+                                <div class="text-white">
+                                    <span style="font-size: 25px; margin-right:-3px">$</span>
+                                    <h2 class="d-inline-block mb-2 text-light" data-toggle="counter-up">20</h2>
+                                    <span style="font-size: 25px; margin-left:-3px">M+</span>
+                                </div>
+                                <p class="text-white mb-0">Customer Savings Per Year</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-4 mb-4 wow fadeIn" data-wow-delay="0.7s" style="background:#00d084">
+                                <i class="fa fa-star fa-2x text-white mb-3"></i>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">68,732</h2>
+                                <p class="text-white mb-0">Customer Reviews</p>
+                            </div>
+                            <div class="p-4 wow fadeIn" data-wow-delay="0.5s" style="background:orange">
+                                <i class="fa fa-ship fa-2x text-white mb-3"></i>
+                                <h2 class="text-white mb-2" data-toggle="counter-up">400,374</h2>
+                                <p class="text-white mb-0">Completed Shipments</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fact End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Our Services</h6>
+                <h1 class="mb-5">Explore Our Services</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-1.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Air Freight</h4>
+                        <p>Fast and efficient air transport. Global reach and timely delivery. Secure and reliable cargo services.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-2.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Ocean Freight</h4>
+                        <p>Reliable sea transport solutions. Global shipping and logistics expertise. Efficient and cost-effective cargo services.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Road Freight</h4>
+                        <p>Efficient land transport services. Timely and reliable delivery. Flexible and cost-effective logistics solutions.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-4.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Train Freight</h4>
+                        <p>Reliable rail transport services. Efficient and environmentally friendly. Cost-effective logistics solutions for your cargo.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-5.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Customs Clearance</h4>
+                        <p>Smooth and efficient customs processing. Expert guidance and compliance. Hassle-free import and export solutions.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-6.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Warehouse Solutions</h4>
+                        <p>Secure and efficient storage options. Flexible and scalable warehouse services. Expert inventory management and logistics support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container feature py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Our Features</h6>
+                    <h1 class="mb-5">We Are Trusted Logistics Company Since 1990</h1>
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>Worldwide Service</h5>
+                            <p class="mb-0">Global reach and local expertise. Reliable logistics solutions everywhere. Timely and efficient service around the world.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
+                        <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>On Time Delivery</h5>
+                            <p class="mb-0">Reliable shipping every time. Guaranteed punctual delivery. Efficient logistics for a timely arrival.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
+                        <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
+                        <div class="ms-4">
+                            <h5>24/7 Telephone Support</h5>
+                            <p class="mb-0">Round-the-clock assistance available. Expert support anytime, anywhere. Reliable help whenever you need it.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+    <!-- Quote Start -->
+    <div class="container-xxl py-5" id="quote-container">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase mb-3">Get A Quote</h6>
+                    <h1 class="mb-5">Request A Free Qoute!</h1>
+                    <p class="mb-5">Get instant shipping rates. Easy online quote request. No obligation, just accurate pricing. Get your quote today!</p>
+                    <div class="d-flex align-items-center">
+                        <i class="fa fa-envelope fa-2x flex-shrink-0 bg-primary p-3 text-white"></i>
+                        <div class="ps-4">
+                            <h6>Email for any query!</h6>
+                            <h3 class="m-0 text-primary">info@post-plus.us</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select A Freight</option>
+                                        <option value="1">Freight 1</option>
+                                        <option value="2">Freight 2</option>
+                                        <option value="3">Freight 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn w-100 py-3 text-light" type="submit" style="background:#002B53">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Our Team</h6>
+                <h1 class="mb-5">Expert Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Ryan Thompson</h5>
+                        <p>Warehouse Operations</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Ethan Sawyer</h5>
+                        <p>Logistics Coordinator</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Alex Chen</h5>
+                        <p>Logistics Manager</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <h5 class="mb-0">Christopher Zepeda</h5>
+                        <p>Team Lead</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="text-center">
+                <h6 class="text-secondary text-uppercase">Testimonial</h6>
+                <h1 class="mb-0">Our Clients Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Emily Wilson</h5>
+                            <p class="m-0">Event Planner</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">The team at PostPlus is professional and courteous, making the entire shipping process smooth.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">David Thompson</h5>
+                            <p class="m-0">Software Engineer</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">PostPlus Logistics is my go-to choice for all my logistics needs, they never disappoint and very professional.</p>
+                </div>
+                
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Ava Morales</h5>
+                            <p class="m-0">Marketing Manager</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">PostPlus Logistics provides excellent service, ensuring timely delivery and great communication.</p>
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                        <div class="ms-4">
+                            <h5 class="mb-1">Michael Reynolds</h5>
+                            <p class="m-0">Graphics Designer</p>
+                        </div>
+                    </div>
+                    <p class="mb-0">I'm impressed with PostPlus Logistics' attention to detail and commitment to customer satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>78 SW 7th St. Suite 500<br> Miami, FL 33130. USA</p>
+                    <!-- <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p> -->
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@post-plus.us</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="">Air Freight</a>
+                    <a class="btn btn-link" href="">Sea Freight</a>
+                    <a class="btn btn-link" href="">Road Freight</a>
+                    <a class="btn btn-link" href="">Logistic Solutions</a>
+                    <a class="btn btn-link" href="">Industry solutions</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Subscribe to our newsletter to stay updated with latest news.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-12 text-center text-md-center mb-3 mb-md-0">
+                        &copy; <a class="border-bottom">PostPlus Delivery Service</a>, All Right Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const banner = document.getElementById('countryBanner');
+            const closeBtn = document.getElementById('closeBtn');
+            const flagButton = document.querySelector('.btn-flag');
+            const modal = new bootstrap.Modal(document.getElementById('countryModal'));
+            const usLink = document.getElementById('usLink');
+            
+            // Check if banner was previously closed
+            if (localStorage.getItem('bannerClosed') !== 'true') {
+                banner.style.display = 'flex';
+            } else {
+                banner.style.display = 'none';
+            }
+            
+            // Close banner
+            closeBtn.addEventListener('click', function() {
+                banner.style.display = 'none';
+                localStorage.setItem('bannerClosed', 'true');
+            });
+            
+            // Open modal
+            flagButton.addEventListener('click', function() {
+                modal.show();
+            });
+            
+            // Handle US selection
+            usLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                alert('You are already on the United States pages');
+                modal.hide();
+            });
+        });
+    </script>
+</body>
+
+</html>
