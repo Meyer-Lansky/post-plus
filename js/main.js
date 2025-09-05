@@ -416,18 +416,18 @@ document.addEventListener('DOMContentLoaded', function() {
         updateField('.pickup-time-info', info.pickupTime);
         updateField('.comments-info', info.comments);
         
-        // Update history table
+         // Update history table
         const historyTable = document.querySelector('#shipment-history tbody');
         if (historyTable) {
             historyTable.innerHTML = shipment.history.map(item => `
                 <tr class="history-row">
                     <td class="history-data date">${item.date}</td>
                     <td class="history-data time">${item.time}</td>
-                    <td class="history-data location">${item.location}</td>
+                    <td class="history-data location">${item.location}</td> 
                     <td class="history-data status">${item.status}</td>
                     <td class="history-data updated-name">${item.updatedBy}</td>
                     <td class="history-data remarks">${item.remarks}</td>
-                </tr>
+                </tr> 
             `).join('');
         }
         
