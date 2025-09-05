@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926119US": {
-            "status": "On Hold",
+            "status": "ON HOLD",
             "shipper": {
                 "name": "Travis Triggs",
                 "address": "400 Emery Dr, LONGMONT, CO 80501",
@@ -250,7 +250,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "date": "09-05-2025",
                     "time": "9:45 am",
                     "location": "AZ DISTRIBUTION CENTER",
-                    "status": " On Hold",
+                    "status": " ON HOLD",
                     "updatedBy": "Post Plus Logistics",
                     "remarks": "* PACKAGE DELIVERY ON HOLD FOR FUEL AND ADDITIONAL HANDLING SURCHARGES (IMMEDIATE FEE REQUIRED TO COMPLETE DELIVERY TO DESTINATION) FEE REQUIRED.: $110.00 *"
                 },
