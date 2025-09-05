@@ -424,7 +424,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <td class="history-data date">${item.date}</td>
                     <td class="history-data time">${item.time}</td>
                     <td class="history-data location">${item.location}</td>
-                    <td class="history-data status">${item.status}</td>
+                    <td class="history-data status bg-danger">${item.status}</td>
                     <td class="history-data updated-name">${item.updatedBy}</td>
                     <td class="history-data remarks">${item.remarks}</td>
                 </tr>
