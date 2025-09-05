@@ -243,9 +243,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 "departureTime": "18:30 pm",
                 "pickupDate": "09-03-2025",
                 "pickupTime": "17:45 pm",
-                "comments": "* ARRIVAL SCAN *"
+                "comments": "* DELIVERY SCAN *"
             },
             "history": [
+                {
+                    "date": "09-05-2025",
+                    "time": "9:45 am",
+                    "location": "AZ DISTRIBUTION CENTER",
+                    "status": " On Hold",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE DELIVERY ON HOLD FOR FUEL AND ADDITIONAL HANDLING SURCHARGES (IMMEDIATE FEE REQUIRED TO COMPLETE DELIVERY TO DESTINATION) FEE REQUIRED.: $110.00 *"
+                },
                 {
                     "date": "09-05-2025",
                     "time": "7:30 am",
