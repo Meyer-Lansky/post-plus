@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926119US": {
-            "status": "In Transit",
+            "status": "Enroute",
             "shipper": {
                 "name": "Travis Triggs",
                 "address": "400 Emery Dr, LONGMONT, CO 80501",
@@ -243,9 +243,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 "departureTime": "18:30 pm",
                 "pickupDate": "09-03-2025",
                 "pickupTime": "17:45 pm",
-                "comments": "* PICK-UP SCAN *"
+                "comments": "* ARRIVAL SCAN *"
             },
             "history": [
+                {
+                    "date": "09-05-2025",
+                    "time": "7:30 am",
+                    "location": "AZ REGIONAL DISTRIBUTION CENTER",
+                    "status": "Enroute",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT FACILITY *"
+                },
                 {
                     "date": "09-04-2025",
                     "time": "12:00 pm",
