@@ -448,7 +448,7 @@ document.addEventListener('DOMContentLoaded', function() {
             statusBadge.className = 'badge ' + (
                 shipment.status.includes('Pending') ? 'bg-warning text-dark' : 
                  shipment.status.includes('ON HOLD') ? 'bg-danger text-light' :
-                shipment.status.includes('TRANSIT') ? 'bg-primary' : 'bg-success'
+                shipment.status.includes('IN TRANSIT') ? 'bg-primary' : 'bg-success'
             );
         }
         
