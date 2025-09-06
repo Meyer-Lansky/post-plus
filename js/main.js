@@ -362,13 +362,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
-    // 5. Form submission handler - FIXED
+     // 5. Form submission handler - FIXED
     trackForm.addEventListener('submit', function(e) {
         e.preventDefault();
         
         const trackingNumber = trackingInput.value.trim().toUpperCase();
         
-        // Reset display
+         // Reset display
         if (resultSection) {
             resultSection.style.display = 'none';
             resultSection.innerHTML = '';
