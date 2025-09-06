@@ -298,6 +298,67 @@ document.addEventListener('DOMContentLoaded', function() {
                     "weight": "6 LBS"
                 }
             ]
+        },
+        "PP016926127US": {
+            "status": "IN TRANSIT",
+            "shipper": {
+                "name": "BRADY HEMMEL",
+                "address": "760 SANDERS BAYOU CT., SHREVEPORT, LA 71106",
+                "phone": "(646) 342-9689"
+            },
+            "receiver": {
+                "name": "ABIGAIL SMITH",
+                "address": "712 ST ANDREWS WAY., LOMPOC, CA 93436",
+                "phone": "(805) 757-0421"
+            },
+            "shipmentInfo": {
+                "origin": "United States",
+                "destination": "United States",
+                "package": "VALVE INDEX FULL VR KIT",
+                "carrier": "DHL",
+                "shipmentType": "Express",
+                "weight": "10 LBS",
+                "shipmentMode": "Land Shipping",
+                "carrierRef": "016926127",
+                "product": "VALVE INDEX FULL VR KIT",
+                "quantity": "1",
+                "paymentMode": "CASH",
+                "totalFreight": "1",
+                "expectedDelivery": "9-8-2025",
+                "departureTime": "6:30 pm",
+                "pickupDate": "9-5-2025",
+                "pickupTime": "4:00 pm",
+                "comments": "* DEPARTURE SCAN *"
+            },
+            "history": [
+                {
+                    "date": "9-8-2025",
+                    "time": "6:00 pm",
+                    "location": "SHREVEPORT LA PACKAGE SORTING CENTER",
+                    "status": " IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* DEPARTED FROM FACILITY *"
+                },
+                {
+                    "date": "09-05-2025",
+                    "time": "4:00 pm",
+                    "location": "SHREVEPORT LA PACKAGE SORTING CENTER",
+                    "status": "PICKED UP",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* WE HAVE YOUR PACKAGE *"
+                }
+            ],
+            "packages": [
+                {
+                    "quantity": "1",
+                    "pieceType": "Box",
+                    "description": "VALVE INDEX FULL VR KIT",
+                    "length": "120",
+                    "width": "80",
+                    "height": "60",
+                    "weight": "10 LBS"
+                }
+            ]
         }
     };
 
@@ -387,7 +448,7 @@ document.addEventListener('DOMContentLoaded', function() {
             statusBadge.className = 'badge ' + (
                 shipment.status.includes('Pending') ? 'bg-warning text-dark' : 
                  shipment.status.includes('ON HOLD') ? 'bg-danger text-light' :
-                shipment.status.includes('Transit') ? 'bg-primary' : 'bg-success'
+                shipment.status.includes('TRANSIT') ? 'bg-primary' : 'bg-success'
             );
         }
         
