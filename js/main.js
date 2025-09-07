@@ -331,8 +331,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 "comments": "* DEPARTURE SCAN *"
             },
             "history": [
+                 {
+                    "date": "9-7-2025",
+                    "time": "6:00 Am",
+                    "location": "Phoenix, AZ",
+                    "status": " IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* DEPARTED FROM FACILITY *"
+                },
                 {
-                    "date": "9-8-2025",
+                    "date": "9-6-2025",
+                    "time": "10:30 pm",
+                    "location": "Phoenix, AZ",
+                    "status": " IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT FACILITY *"
+                },
+                {
+                    "date": "9-5-2025",
                     "time": "6:00 pm",
                     "location": "SHREVEPORT LA PACKAGE SORTING CENTER",
                     "status": " IN TRANSIT",
@@ -340,7 +356,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "remarks": "* DEPARTED FROM FACILITY *"
                 },
                 {
-                    "date": "09-05-2025",
+                    "date": "9-5-2025",
                     "time": "4:00 pm",
                     "location": "SHREVEPORT LA PACKAGE SORTING CENTER",
                     "status": "PICKED UP",
