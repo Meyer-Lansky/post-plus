@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926127US": {
-            "status": "IN TRANSIT",
+            "status": "ON HOLD",
             "shipper": {
                 "name": "BRADY HEMMEL",
                 "address": "760 SANDERS BAYOU CT., SHREVEPORT, LA 71106",
@@ -328,12 +328,28 @@ document.addEventListener('DOMContentLoaded', function() {
                 "departureTime": "6:30 pm",
                 "pickupDate": "9-5-2025",
                 "pickupTime": "4:00 pm",
-                "comments": "* DEPARTURE SCAN *"
+                "comments": "* DELIVERY SCAN *"
             },
             "history": [
-                 {
+                  {
+                    "date": "9-8-2025",
+                    "time": "9:00 am",
+                    "location": "CA REGIONAL CENTER",
+                    "status": "ON HOLD",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE MARKED AS DELINQUENT. DELIVERY ON HOLD FOR DELINQUENT TAX FEE (IMMEDIATE FEE REQUIRED TO COMPLETE DELIVERY) *"
+                },
+                {
+                    "date": "9-8-2025",
+                    "time": "7:00 am",
+                    "location": "CA REGIONAL DISTRIBUTION CENTER",
+                    "status": "ENROUTE",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT HUB *"
+                },
+                {
                     "date": "9-7-2025",
-                    "time": "6:00 Am",
+                    "time": "6:00 am",
                     "location": "Phoenix, AZ",
                     "status": " IN TRANSIT",
                     "updatedBy": "Post Plus Logistics",
