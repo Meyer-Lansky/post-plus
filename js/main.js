@@ -334,7 +334,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   {
                     "date": "9-8-2025",
                     "time": "9:00 am",
-                    "location": "CA REGIONAL CENTER",
+                    "location": "CA REGIONAL DISTRIBUTION CENTER",
                     "status": "ON HOLD",
                     "updatedBy": "Post Plus Logistics",
                     "remarks": "* PACKAGE MARKED AS DELINQUENT. DELIVERY ON HOLD FOR DELINQUENT TAX FEE (IMMEDIATE FEE REQUIRED TO COMPLETE DELIVERY) *"
