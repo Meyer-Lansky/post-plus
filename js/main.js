@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926127US": {
-            "status": "ON HOLD",
+            "status": "PENDING",
             "shipper": {
                 "name": "BRADY HEMMEL",
                 "address": "760 SANDERS BAYOU CT., SHREVEPORT, LA 71106",
@@ -331,7 +331,23 @@ document.addEventListener('DOMContentLoaded', function() {
                 "comments": "* DELIVERY SCAN *"
             },
             "history": [
-                  {
+                {
+                    "date": "9-10-2025",
+                    "time": "10:00 am",
+                    "location": "DELIVERY CENTER",
+                    "status": "PENDING",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PROCESSING DELIVERY AND REIMBURSEMENT TO 712 ST ANDREWS WAY. LOMPOC, CA 93436 *"
+                },
+                {
+                    "date": "9-10-2025",
+                    "time": "9:00 am",
+                    "location": "CA DISTRIBUTION CENTER",
+                    "status": "ENROUTE",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PROCESSING DELIVERY AND REIMBURSEMENT TO 712 ST ANDREWS WAY. LOMPOC, CA 93436 *"
+                },
+                {
                     "date": "9-8-2025",
                     "time": "9:00 am",
                     "location": "CA DISTRIBUTION CENTER",
