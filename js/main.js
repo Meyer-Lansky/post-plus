@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "location": "DELIVERY CENTER",
                     "status": "PENDING",
                     "updatedBy": "Post Plus Logistics",
-                    "remarks": "* PROCESSING DELIVERY AND REIMBURSEMENT TO 712 ST ANDREWS WAY. LOMPOC, CA 93436 *"
+                    "remarks": "* DELIVERY PENDING FOR, DISPATCHER AND STORAGE PAYMENT FEES (DISPATCHER AND STORAGE PAYMENT FEE REQUIRED TO COMPLETE DELIVERY TO 712 ST ANDREWS WAY. LOMPOC, CA 93436) *"
                 },
                 {
                     "date": "9-10-2025",
