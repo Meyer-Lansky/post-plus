@@ -328,9 +328,49 @@ document.addEventListener('DOMContentLoaded', function() {
                 "departureTime": "6:30 pm",
                 "pickupDate": "9-5-2025",
                 "pickupTime": "4:00 pm",
-                "comments": "* DELIVERY SCAN *"
+                "comments": "* ON HOLD *"
             },
             "history": [
+                {
+                    "date": "9-12-2025",
+                    "time": "2:30 pm",
+                    "location": "In Transit (SAINT LUIS OBISPO CTY REGIONAL)",
+                    "status": "On Hold",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* Package remains in transit but is held pending surcharge clearance *"
+                },
+                {
+                    "date": "9-12-2025",
+                    "time": "1:35 pm",
+                    "location": "Billing Office (SAINT LUIS OBISPO CTY REGIONAL)",
+                    "status": "On Hold During Transit",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* Recipient (ABIGAIL SMITH) to be reimbursed $225.00 upon delivery *"
+                },
+                {
+                    "date": "9-12-2025",
+                    "time": "1:10 pm",
+                    "location": "SAINT LUIS OBISPO CTY REGIONAL",
+                    "status": "Reimbursement Scheduled",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* Recipient to be reimbursed $225.00 upon delivery *"
+                },
+                {
+                    "date": "9-12-2025",
+                    "time": "12:30 pm",
+                    "location": "Transit Facility (SAINT LUIS OBISPO CTY REGIONAL)",
+                    "status": "Delivery Paused",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* Delivery temporarily halted due to fuel and handling surcharges ($150.00 required) *"
+                },
+                {
+                    "date": "9-12-2025",
+                    "time": "12:07 pm",
+                    "location": "Processing Center (SAINT LUIS OBISPO CTY REGIONAL)",
+                    "status": "Package Registered",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* Package re-registered and prepared for transit *"
+                },        
                 {
                     "date": "9-10-2025",
                     "time": "10:00 am",
