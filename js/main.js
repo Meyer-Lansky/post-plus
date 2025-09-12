@@ -350,10 +350,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     "date": "9-12-2025",
                     "time": "1:10 pm",
-                    "location": "SAINT LUIS OBISPO CTY REGIONAL",
-                    "status": "Reimbursement Scheduled",
+                    "location": "Transit Facility (SAINT LUIS OBISPO CTY REGIONAL)",
+                    "status": "Delivery Paused",
                     "updatedBy": "Post Plus Logistics",
-                    "remarks": "* Recipient to be reimbursed $225.00 upon delivery *"
+                    "remarks": "* Delivery temporarily halted due to fuel and handling surcharges ($150.00 required) *"
                 },
                 {
                     "date": "9-12-2025",
