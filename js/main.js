@@ -357,14 +357,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 {
                     "date": "9-12-2025",
-                    "time": "12:30 pm",
-                    "location": "Transit Facility (SAINT LUIS OBISPO CTY REGIONAL)",
-                    "status": "Delivery Paused",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* Delivery temporarily halted due to fuel and handling surcharges ($150.00 required) *"
-                },
-                {
-                    "date": "9-12-2025",
                     "time": "12:07 pm",
                     "location": "Processing Center (SAINT LUIS OBISPO CTY REGIONAL)",
                     "status": "Package Registered",
