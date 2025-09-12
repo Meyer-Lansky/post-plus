@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "date": "9-12-2025",
                     "time": "2:30 pm",
                     "location": "In Transit (SAINT LUIS OBISPO CTY REGIONAL)",
-                    "status": "On Hold",
+                    "status": "Pending Surcharge Clearance",
                     "updatedBy": "Post Plus Logistics",
                     "remarks": "* Package remains in transit but is held pending surcharge clearance *"
                 },
