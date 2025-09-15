@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "date": "9-15-2025",
                     "time": "8:00 am",
                     "location": "BRAGUR, CALIFORNIA",
-                    "status": "IN TRANSIT",
+                    "status": "POSTAL INSPECTIONS - IN TRANSIT",
                     "updatedBy": "Post Plus Logistics",
                     "remarks": "* ARRIVED AT FACILITY (ETA: 9-15-2015, 12:00 PM) *"
                 },
