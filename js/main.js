@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926127US": {
-            "status": "ON HOLD",
+            "status": "IN TRANSIT",
             "shipper": {
                 "name": "BRADY HEMMEL",
                 "address": "760 SANDERS BAYOU CT., SHREVEPORT, LA 71106",
@@ -324,13 +324,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 "quantity": "1",
                 "paymentMode": "CASH",
                 "totalFreight": "1",
-                "expectedDelivery": "9-8-2025",
+                "expectedDelivery": "15-9-2025",
                 "departureTime": "6:30 pm",
                 "pickupDate": "9-5-2025",
                 "pickupTime": "4:00 pm",
-                "comments": "* ON HOLD *"
+                "comments": "* IN TRANSIT *"
             },
             "history": [
+                {
+                    "date": "9-14-2025",
+                    "time": "4:00 pm",
+                    "location": "SAINT LUIS OBISPO CTY REGIONAL",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE AND REIMBURSEMENT DELIVERY RESCHEDULED (ETA: 9-15-2015, 12:00 PM) *"
+                },
                 {
                     "date": "9-12-2025",
                     "time": "2:30 pm",
