@@ -324,7 +324,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "quantity": "1",
                 "paymentMode": "CASH",
                 "totalFreight": "1",
-                "expectedDelivery": "15-9-2025",
+                "expectedDelivery": "9-15-2025",
                 "departureTime": "6:30 pm",
                 "pickupDate": "9-5-2025",
                 "pickupTime": "4:00 pm",
