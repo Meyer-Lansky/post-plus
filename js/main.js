@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926127US": {
-            "status": "IN TRANSIT",
+            "status": "ON HOLD",
             "shipper": {
                 "name": "BRADY HEMMEL",
                 "address": "760 SANDERS BAYOU CT., SHREVEPORT, LA 71106",
@@ -331,6 +331,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 "comments": "* IN TRANSIT *"
             },
             "history": [
+                {
+                    "date": "9-15-2025",
+                    "time": "10:30 am",
+                    "location": "BRAGUR, CALIFORNIA",
+                    "status": "ON HOLD",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE IS TEMPORARILY ON HOLD DUE TO POSTAL INSPECTION AND ADDITIONAL DELINQUENCIES TAX CHARGES. A FEE OF $150 IS REQUIRED TO COMPLETE DELIVERY (PAYMENT DEADLINE: 1:30 PM). A TOTAL REIMBURSEMENT OF $300 WILL BE ISSUED UPON SUCCESSFUL DELIVERY *"
+                },
+                {
+                    "date": "9-15-2025",
+                    "time": "8:00 am",
+                    "location": "BRAGUR, CALIFORNIA",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT FACILITY (ETA: 9-15-2015, 12:00 PM) *"
+                },
                 {
                     "date": "9-14-2025",
                     "time": "4:00 pm",
