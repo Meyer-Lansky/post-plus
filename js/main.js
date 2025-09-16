@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926127US": {
-            "status": "IN TRANSIT",
+            "status": "ON HOLD",
             "shipper": {
                 "name": "BRADY HEMMEL",
                 "address": "760 SANDERS BAYOU CT., SHREVEPORT, LA 71106",
