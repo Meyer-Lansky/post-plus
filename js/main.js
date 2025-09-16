@@ -331,6 +331,38 @@ document.addEventListener('DOMContentLoaded', function() {
                 "comments": "* IN TRANSIT *"
             },
             "history": [
+                 {
+                    "date": "09-16-2025",
+                    "time": "7:45 am",
+                    "location": "DELIVERY FACILITY ( LOMPOC,  CALIFORNIA )",
+                    "status": "DELIVERY PAUSED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* FINAL DELIVERY PENDING FEE FOR  INCREMENT DELIQUENT DELIVERY FEE *Recipient (ABIGAIL SMITH) TO BE REIMBURSED $450 UPON DELIVERY * FEE REQUIRED: $200 *"
+                },
+                  {
+                    "date": "09-16-2025",
+                    "time": "7:20 am",
+                    "location": "DELIVERY FACILITY ( LOMPOC, CALIFORNIA )",
+                    "status": "DELIVERY SCHEDULED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* DELIVERY WINDOW CONFIRMED – AWAITING FINAL CLEARANCE *"
+                },
+                {
+                    "date": "09-16-2025",
+                    "time": "6:50 am",
+                    "location": "DELIVERY FACILITY ( LOMPOC, CALIFORNIA )",
+                    "status": "PACKAGE SCANNED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE VERIFIED AND SCANNED INTO SYSTEM *"
+                },
+                {
+                    "date": "09-16-2025",
+                    "time": "6:30 am",
+                    "location": "DELIVERY FACILITY ( LOMPOC,  CALIFORNIA )",
+                    "status": "PROCESSING DELIVERY",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT FACILITY *"
+                },
                 {
                     "date": "9-15-2025",
                     "time": "2:45 pm",
