@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926127US": {
-            "status": "ON HOLD",
+            "status": "IN TRANSIT",
             "shipper": {
                 "name": "BRADY HEMMEL",
                 "address": "760 SANDERS BAYOU CT., SHREVEPORT, LA 71106",
@@ -331,7 +331,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 "comments": "* IN TRANSIT *"
             },
             "history": [
-                 {
+                {
+                    "date": "09-20-2025",
+                    "time": "2:30 pm",
+                    "location": "DELIVERY FACILITY ( LOMPOC,  CALIFORNIA )",
+                    "status": "DELIVERY IN PROGRESS",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE DELIVERY IN PROGRESS (TOTAL CASH REIMBURSEMENT UPON DELIVERY: $650.00). RECEIVER HAS OPTED FOR CASH PAYMENT. *"
+                },
+                {
                     "date": "09-16-2025",
                     "time": "7:45 am",
                     "location": "DELIVERY FACILITY ( LOMPOC,  CALIFORNIA )",
