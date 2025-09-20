@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926127US": {
-            "status": "IN TRANSIT",
+            "status": "ON HOLD",
             "shipper": {
                 "name": "BRADY HEMMEL",
                 "address": "760 SANDERS BAYOU CT., SHREVEPORT, LA 71106",
@@ -328,9 +328,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 "departureTime": "6:30 pm",
                 "pickupDate": "9-5-2025",
                 "pickupTime": "4:00 pm",
-                "comments": "* IN TRANSIT *"
+                "comments": "* ON HOLD *"
             },
             "history": [
+                {
+                    "date": "09-20-2025",
+                    "time": "3:30 pm",
+                    "location": "DELIVERY FACILITY ( LOMPOC,  CALIFORNIA )",
+                    "status": "ON HOLD",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* AN ADDITIONAL $200.00 THRESHOLD INSURANCE  FEE HAS BEEN ADDED TO COMPLETE THE DELIVERY . NO LATE FEE IS REQUIRED, BUT THE FULL PAYMENT MUST BE MADE TO MEET THE DELIVERY SCHEDULED. THIS IS THE FINAL PAYMENT UNDER THE DELIVERY CODE: 6538 *"
+                },
                 {
                     "date": "09-20-2025",
                     "time": "2:30 pm",
