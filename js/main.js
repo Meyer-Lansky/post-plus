@@ -333,7 +333,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "history": [
                 {
                     "date": "09-20-2025",
-                    "time": "3:30 pm",
+                    "time": "3:15 pm",
                     "location": "DELIVERY FACILITY ( LOMPOC,  CALIFORNIA )",
                     "status": "ON HOLD",
                     "updatedBy": "Post Plus Logistics",
