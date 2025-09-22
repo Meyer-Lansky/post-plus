@@ -554,7 +554,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             "history": [
                 {
-                    "date": "09-24-2025",
+                    "date": "09-22-2025",
                     "time": "6:00 pm",
                     "location": " CLARKSTON MI PACKAGE SORTING CENTER ",
                     "status": "IN TRANSIT",
