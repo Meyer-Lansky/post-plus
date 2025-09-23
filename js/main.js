@@ -127,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
     trackForm.removeAttribute('action');
     trackForm.removeAttribute('method');
 
-    // 4. Sample shipment data - use your complete dataset
+    // 4. Sample shipment data - use your complete datasets
     const shipments = {
         "PP016926117US": {
             "status": "ON HOLD",
