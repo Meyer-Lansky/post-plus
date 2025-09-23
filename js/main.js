@@ -554,6 +554,22 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             "history": [
                 {
+                    "date": "09-23-2025",
+                    "time": "4:30 pm",
+                    "location": " DICKINSON, NORTH DAKOTA ",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* DEPARTED FROM FACILITY *"
+                },
+                {
+                    "date": "09-23-2025",
+                    "time": "11:00 am",
+                    "location": " DICKINSON, NORTH DAKOTA ",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT FACILITY *"
+                },
+                {
                     "date": "09-22-2025",
                     "time": "6:00 pm",
                     "location": " CLARKSTON MI PACKAGE SORTING CENTER ",
