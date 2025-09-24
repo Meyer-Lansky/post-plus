@@ -522,7 +522,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ,
     },
     "PP016926130US": {
-            "status": "ENROUTE",
+            "status": "ON HOLD",
             "shipper": {
                 "name": "MATTHEW ALEJOS",
                 "address": "6699 ANDERSONVILLE RD, CLARKSTON, MI 48346",
@@ -550,16 +550,56 @@ document.addEventListener('DOMContentLoaded', function() {
                 "departureTime": "6:00 pm",
                 "pickupDate": "9-22-2025",
                 "pickupTime": "4:00 pm",
-                "comments": "* ARRIVAL SCAN *"
+                "comments": "* DELIVERY SCAN *"
             },
-            "history": [
+            "history": [          
+                {
+                    "date": "09-24-2025",
+                    "time": "9:30 am",
+                    "location": "WA DISTRIBUTION CENTER",
+                    "status": "ON HOLD",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE MARKED AS DELINQUENT. DELIVERY ON HOLD FOR DELINQUENT TAX FEE($110 IMMEDIATE FEE REQUIRED TO COMPLETE DELIVERY) *"
+                },
+                {
+                    "date": "09-24-2025",
+                    "time": "8:45 am",
+                    "location": "WA REGIONAL DISTRIBUTION CENTER",
+                    "status": "REVIEWED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* DELINQUENT TAX IDENTIFIED. ESCALATED TO HOLD STATUS *"
+                },
+                {
+                    "date": "09-24-2025",
+                    "time": "8:00 am",
+                    "location": "WA REGIONAL DISTRIBUTION CENTER",
+                    "status": "FLAGGED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE FLAGGED FOR TAX COMPLIANCE REVIEW *"
+                },
+                {
+                    "date": "09-24-2025",
+                    "time": "7:30 am",
+                    "location": "WA REGIONAL DISTRIBUTION CENTER",
+                    "status": "INSPECTION",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ROUTINE PACKAGE VERIFICATION INITIATED *"
+                },
+                {
+                    "date": "09-24-2025",
+                    "time": "7:00 am",
+                    "location": "WA REGIONAL DISTRIBUTION CENTER",
+                    "status": "CHECK-IN",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE SCANNED INTO FACILITY *"
+                },
                 {
                     "date": "09-24-2025",
                     "time": "6:30 am",
                     "location": "WA REGIONAL DISTRIBUTION CENTER",
                     "status": "ENROUTE",
                     "updatedBy": "Post Plus Logistics",
-                    "remarks": "* ARRIVED AT HUB *"
+                    "remarks": "* ARRIVED AT HUB *"
                 },
                 {
                     "date": "09-24-2025",
