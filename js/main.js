@@ -522,7 +522,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ,
     },
     "PP016926130US": {
-            "status": "IN TRANSIT",
+            "status": "ENROUTE",
             "shipper": {
                 "name": "MATTHEW ALEJOS",
                 "address": "6699 ANDERSONVILLE RD, CLARKSTON, MI 48346",
@@ -550,9 +550,33 @@ document.addEventListener('DOMContentLoaded', function() {
                 "departureTime": "6:00 pm",
                 "pickupDate": "9-22-2025",
                 "pickupTime": "4:00 pm",
-                "comments": "* DEPARTURE SCAN *"
+                "comments": "* ARRIVAL SCAN *"
             },
             "history": [
+                {
+                    "date": "09-24-2025",
+                    "time": "6:30 am",
+                    "location": "WA REGIONAL DISTRIBUTION CENTER",
+                    "status": "ENROUTE",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT HUB *"
+                },
+                {
+                    "date": "09-24-2025",
+                    "time": "2:00 am",
+                    "location": "  BOZEMAN, MONTANA ",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* DEPARTED FROM FACILITY *"
+                },
+                {
+                    "date": "09-23-2025",
+                    "time": "11:30 pm",
+                    "location": "  BOZEMAN, MONTANA ",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT FACILITY *"
+                },
                 {
                     "date": "09-23-2025",
                     "time": "4:30 pm",
