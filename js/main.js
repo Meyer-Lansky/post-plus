@@ -708,7 +708,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "location": "BAYSIDE NY PACKAGE SORTING CENTER",
                     "status": "IN TRANSIT",
                     "updatedBy": "Post Plus Logistics",
-                    "remarks": "* WE HAVE YOUR PACKAGE *"
+                    "remarks": "* DEPARTED FROM FACILITY *"
                 },
                 {
                     "date": "10-4-2025",
@@ -716,7 +716,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "location": "BAYSIDE NY PACKAGE SORTING CENTER",
                     "status": "PICKED UP",
                     "updatedBy": "Post Plus Logistics",
-                    "remarks": "*  DEPARTED FROM FACILITY *",
+                    "remarks": "*  WE HAVE YOUR PACKAGE *",
                 }
             ],
             "packages": [
