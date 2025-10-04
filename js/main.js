@@ -690,7 +690,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "shipmentType": "Express",
                 "weight": "10 LBS",
                 "shipmentMode": "Land Shipping",
-                "carrierRef": "016926130",
+                "carrierRef": "016926132",
                 "product": "VALVE INDEX FULL VR KIT",
                 "quantity": "1",
                 "paymentMode": "CASH",
