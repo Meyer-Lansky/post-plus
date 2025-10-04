@@ -696,7 +696,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "paymentMode": "CASH",
                 "totalFreight": "1",
                 "expectedDelivery": "10-07-2025",              
-                "departureTime": "6:00 pm",
+                "departureTime": "4:00 pm",
                 "pickupDate": "10-04-2025",
                 "pickupTime": "12:00pm",
                 "comments": "* DEPARTURE SCAN *"
