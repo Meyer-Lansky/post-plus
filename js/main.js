@@ -701,7 +701,23 @@ document.addEventListener('DOMContentLoaded', function() {
                 "pickupTime": "12:00pm",
                 "comments": "* DEPARTURE SCAN *"
             },
-            "history": [          
+            "history": [
+                {
+                    "date": "10-5-2025",
+                    "time": "4:00pm",
+                    "location": "Philadelphia, Pennsylvania",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* DEPARTED FROM FACILITY *"
+                },     
+                {
+                    "date": "10-5-2025",
+                    "time": "12:00pm",
+                    "location": "Philadelphia, Pennsylvania",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT FACILITY *"
+                },     
                 {
                     "date": "10-4-2025",
                     "time": "4:00pm",
