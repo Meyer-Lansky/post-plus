@@ -671,7 +671,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926132US": {
-            "status": "IN TRANSIT",
+            "status": "ON HOLD",
             "shipper": {
                 "name": "Enriquez Shane Maldonado-Martinez",
                 "address": "1530 Bell Blvd., Bayside, NY 11360",
@@ -702,6 +702,54 @@ document.addEventListener('DOMContentLoaded', function() {
                 "comments": "* DEPARTURE SCAN *"
             },
             "history": [
+                {
+                    "date": "10-6-2025",
+                    "time": "1:00pm",
+                    "location": "Wilson, North Carolina",
+                    "status": "ON HOLD",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE MARKED AS DELINQUENT. DELIVERY ON HOLD FOR DELINQUENT TAX FEE($110 IMMEDIATE FEE REQUIRED TO COMPLETE DELIVERY TO DESTINATION) *"
+                },
+                {
+                    "date": "10-6-2025",
+                    "time": "12:50pm",
+                    "location": "Wilson, North Carolina",
+                    "status": "NOTIFICATION SENT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "Shipper notified of delinquent tax fee. Awaiting resolution to proceed with delivery."
+                },
+                {
+                    "date": "10-6-2025",
+                    "time": "12:40pm",
+                    "location": "Wilson, North Carolina",
+                    "status": "DELIVERY FLAGGED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "Package flagged due to outstanding tax obligations. Escalation initiated."
+                },
+                {
+                    "date": "10-6-2025",
+                    "time": "12:30pm",
+                    "location": "Wilson, North Carolina",
+                    "status": "TAX COMPLIANCE CHECK INITIATED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "Routine compliance check initiated prior to dispatch. Verifying destination clearance."
+                },
+                {
+                    "date": "10-6-2025",
+                    "time": "12:15pm",
+                    "location": "Wilson, North Carolina",
+                    "status": "ROUTING CONFIRMED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "Delivery route confirmed for final leg. Package queued for dispatch."
+                },
+                {
+                    "date": "10-6-2025",
+                    "time": "12:00pm",
+                    "location": "Wilson, North Carolina",
+                    "status": "ARRIVED AT LOCAL FACILITY",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "Package scanned and received at Wilson distribution center. Preparing for final delivery routing."
+                },
                 {
                     "date": "10-6-2025",
                     "time": "8:00am",
