@@ -703,6 +703,30 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             "history": [
                 {
+                    "date": "10-6-2025",
+                    "time": "8:00am",
+                    "location": "Wilson, North Carolina",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT FACILITY *"
+                },
+                {
+                    "date": "10-6-2025",
+                    "time": "3:00am",
+                    "location": "Fredericksburg, Virginia",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* DEPARTED FROM FACILITY *"
+                },
+                {
+                    "date": "10-5-2025",
+                    "time": "10:30pm",
+                    "location": "Fredericksburg, Virginia",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT FACILITY *"
+                },  
+                {
                     "date": "10-5-2025",
                     "time": "4:00pm",
                     "location": "Philadelphia, Pennsylvania",
