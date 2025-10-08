@@ -316,7 +316,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "destination": "United States",
                 "package": "VALVE INDEX FULL VR KIT",
                 "carrier": "DHL",
-                "shipmentType": "Express",
+                "shipmentType": "Expresss",
                 "weight": "10 LBS",
                 "shipmentMode": "Land Shipping",
                 "carrierRef": "016926127",
