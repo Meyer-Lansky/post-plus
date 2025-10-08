@@ -671,7 +671,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926132US": {
-            "status": "IN TRANSIT",
+            "status": "PENDING",
             "shipper": {
                 "name": "Enriquez Shane Maldonado-Martinez",
                 "address": "1530 Bell Blvd., Bayside, NY 11360",
@@ -699,9 +699,65 @@ document.addEventListener('DOMContentLoaded', function() {
                 "departureTime": "4:00 pm",
                 "pickupDate": "10-04-2025",
                 "pickupTime": "12:00pm",
-                "comments": "* DEPARTURE SCAN *"
+                "comments": "* DELIVERY SCAN *"
             },
             "history": [
+                {
+                    "date": "10-8-2025",
+                    "time": "2:30pm",
+                    "location": "SC Distribution Center",
+                    "status": "PENDING",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* THE PACKAGE IS AWAITING FINAL DELIVERY, PENDING A $220 FUEL AND HANDLING FEE. A $300 CASH REIMBURSEMENT HAS BEEN APPROVED UPON DELIVERY. *"
+                },
+                {
+                    "date": "10-8-2025",
+                    "time": "1:45pm",
+                    "location": "SC Distribution Center – Loading Bay",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE LOADED ONTO FINAL DELIVERY VEHICLE *"
+                },
+                {
+                    "date": "10-8-2025",
+                    "time": "1:40pm",
+                    "location": "SC Distribution Center – Intake",
+                    "status": "NOTIFIED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* SHIPPER NOTIFIED OF PACKAGE STATUS AND FEE REQUIREMENTS *"
+                },
+                {
+                    "date": "10-8-2025",
+                    "time": "1:30pm",
+                    "location": "SC Distribution Center – Intake",
+                    "status": "PROCESSING",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE SCANNED AND VERIFIED *"
+                },
+                {
+                    "date": "10-8-2025",
+                    "time": "1:15pm",
+                    "location": "SC Transfer Dock",
+                    "status": "TRANSFER COMPLETE",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE MOVED TO DISTRIBUTION CENTER *"
+                },
+                {
+                    "date": "10-8-2025",
+                    "time": "1:00pm",
+                    "location": "SC Regional Distribution Center – Outbound",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* DISPATCHED TO SC DISTRIBUTION CENTER *"
+                },
+                {
+                    "date": "10-8-2025",
+                    "time": "12:30pm",
+                    "location": "SC Regional Distribution Center",
+                    "status": "ARRIVED AT HUB",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT HUB *"
+                },
                 {
                     "date": "10-7-2025",
                     "time": "9:00pm",
