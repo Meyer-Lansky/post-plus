@@ -671,7 +671,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926132US": {
-            "status": "ON HOLD",
+            "status": "IN TRANSIT",
             "shipper": {
                 "name": "Enriquez Shane Maldonado-Martinez",
                 "address": "1530 Bell Blvd., Bayside, NY 11360",
@@ -695,13 +695,29 @@ document.addEventListener('DOMContentLoaded', function() {
                 "quantity": "1",
                 "paymentMode": "CASH",
                 "totalFreight": "1",
-                "expectedDelivery": "10-07-2025",              
+                "expectedDelivery": "10-08-2025",              
                 "departureTime": "4:00 pm",
                 "pickupDate": "10-04-2025",
                 "pickupTime": "12:00pm",
                 "comments": "* DEPARTURE SCAN *"
             },
             "history": [
+                {
+                    "date": "10-7-2025",
+                    "time": "9:00pm",
+                    "location": "Wilson, North Carolina",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* DEPARTED FROM FACILITY *"
+                },
+                {
+                    "date": "10-7-2025",
+                    "time": "8:30pm",
+                    "location": "Wilson, North Carolina",
+                    "status": "ENROUTE",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE DELIVERY AND REIMBURSEMENT APPROVED *"
+                },
                 {
                     "date": "10-6-2025",
                     "time": "1:00pm",
