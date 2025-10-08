@@ -671,7 +671,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926132US": {
-            "status": "Pending",
+            "status": "PENDING",
             "shipper": {
                 "name": "Enriquez Shane Maldonado-Martinez",
                 "address": "1530 Bell Blvd., Bayside, NY 11360",
@@ -714,9 +714,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     "date": "10-8-2025",
                     "time": "1:45pm",
                     "location": "SC Distribution Center – Loading Bay",
-                    "status": "IN TRANSIT",
+                    "status": "ENROUTE",
                     "updatedBy": "Post Plus Logistics",
-                    "remarks": "* PACKAGE LOADED ONTO FINAL DELIVERY VEHICLE *"
+                    "remarks": "* PACKAGE LOADED ONTO DISPATCHER DELIVERY VEHICLE *"
                 },
                 {
                     "date": "10-8-2025",
@@ -977,7 +977,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (statusBadge) {
             statusBadge.textContent = shipment.status;
             statusBadge.className = 'badge ' + (
-                shipment.status.includes('Pending') ? 'bg-warning text-dark' : 
+                shipment.status.includes('PENDING') ? 'bg-warning text-dark' : 
                  shipment.status.includes('ON HOLD') ? 'bg-danger text-light' :
                 shipment.status.includes('IN TRANSIT') ? 'bg-warning' : 'bg-success'
             );
