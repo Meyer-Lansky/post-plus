@@ -699,7 +699,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "departureTime": "4:00 pm",
                 "pickupDate": "10-04-2025",
                 "pickupTime": "12:00pm",
-                "comments": "* DELIVERY SCAN *"
+                "comments": "* DEPARTURE SCAN *"
             },
             "history": [
                 {   
@@ -708,7 +708,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "location": "Moores Corner, South Carolina",
                     "status": "IN TRANSIT",
                     "updatedBy": "Post Plus Logistics",
-                    "remarks": "*  DEPARTED FROM FACILITY *",
+                    "remarks": "* DEPARTED FROM FACILITY *",
                 },
                 {   
                     "date": "10-18-2025",
