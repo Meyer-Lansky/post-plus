@@ -671,7 +671,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926132US": {
-            "status": "IN TRANSIT",
+            "status": "ON HOLD",
             "shipper": {
                 "name": "Enriquez Shane Maldonado-Martinez",
                 "address": "1530 Bell Blvd., Bayside, NY 11360",
@@ -702,6 +702,46 @@ document.addEventListener('DOMContentLoaded', function() {
                 "comments": "* DELIVERY SCAN *"
             },
             "history": [
+                {
+                    "date": "10/18/2025",
+                    "time": "7:00 AM",
+                    "status": "ON HOLD",
+                    "location": "Moores Corner, South Carolina",
+                    "remark": "* FINAL DELIVERY PENDING FEE FOR INCREMENT DELINQUENT DELIVERY FEE *Recipient (KYLE GEARY) TO BE REIMBURSED $450 UPON DELIVERY * SHIPPER HAS OPTED FOR CASH PAYMENT. *",
+                    "fee_required": "$200"
+                },
+                {
+                    "time": "6:55 AM",
+                    "status": "Pending Payment",
+                    "location": "Moores Corner Facility",
+                    "remark": "Delivery placed on hold pending fee payment; Shipper notified by email"
+                },
+                {
+                    "time": "6:45 AM",
+                    "status": "Fee Assessment",
+                    "location": "Moores Corner Facility",
+                    "remark": "Increment delinquent delivery fee of $200 flagged; awaiting resolution"
+                },
+                {
+                    "time": "6:30 AM",
+                    "status": "Verification",
+                    "location": "Moores Corner Facility",
+                    "remark": "Recipient details verified; payment method confirmed as cash"
+                },
+                {
+                    "time": "6:15 AM",
+                    "status": "Processing",
+                    "location": "Moores Corner Facility",
+                    "remark": "Package scanned and queued for final dispatch"
+                },
+                {
+                    "date": "10/18/2025",
+                    "time": "6:00 AM",
+                    "status": "ENROUTE",
+                    "location": "Moores Corner, South Carolina",
+                    "remark": "* ARRIVED AT FACILITY *"
+                },
+
                 {
                     "date": "10-17-2025",
                     "time": "5:00pm",
