@@ -671,7 +671,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926132US": {
-            "status": "ON HOLD",
+            "status": "IN TRANSIT",
             "shipper": {
                 "name": "Enriquez Shane Maldonado-Martinez",
                 "address": "1530 Bell Blvd., Bayside, NY 11360",
@@ -702,6 +702,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 "comments": "* DELIVERY SCAN *"
             },
             "history": [
+                {   
+                    "date": "10-18-2025",
+                    "time": "2:30 PM",
+                    "location": "Moores Corner, South Carolina",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "*  DEPARTED FROM FACILITY *",
+                },
+                {   
+                    "date": "10-18-2025",
+                    "time": "2:00 PM",
+                    "location": "Moores Corner, South Carolina",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "*  PACKAGE DELIVERY AND CASH REIMBURSEMENT APPROVED, PENDING POSTAL INSPECTION * DELIVERY CODE: 6538 * *",
+                },
                 {   
                     "date": "10-18-2025",
                     "time": "7:00 AM",
