@@ -612,7 +612,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     "date": "09-23-2025",
                     "time": "11:30 pm",
-                    "location": "  BOZEMAN, MONTANA ",
+                    "location": " BOZEMAN, MONTANA ",
                     "status": "IN TRANSIT",
                     "updatedBy": "Post Plus Logistics",
                     "remarks": "* ARRIVED AT FACILITY *"
