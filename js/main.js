@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "location": "AZ DISTRIBUTION CENTER",
                     "status": " ON HOLD",
                     "updatedBy": "Post Plus Logistics",
-                    "remarks": "* PACKAGE DELIVERY ON HOLD FOR FUEL AND ADDITIONAL HANDLING SURCHARGES (IMMEDIATE FEE REQUIRED TO COMPLETE DELIVERY TO DESTINATION) FEE REQUIRED.: $110.00 *"
+                    "remarks": "*  FINAL DELIVERY PENDING FEE FOR INCREMENT DELIQUENT DELIVERY FEE *Recipient (KYLE GEARY ) TO BE REIMBURSED $450 UPON DELIVERY * RECEIVER HAS OPTED FOR CASH PAYMENT. * FEE REQUIRED: $200 *"
                 },
                 {
                     "date": "09-05-2025",
@@ -702,41 +702,45 @@ document.addEventListener('DOMContentLoaded', function() {
                 "comments": "* DELIVERY SCAN *"
             },
             "history": [
-                {
+                {   
                     "date": "10/18/2025",
                     "time": "7:00 AM",
-                    "status": "ON HOLD",
                     "location": "Moores Corner, South Carolina",
-                    "remarks": "* FINAL DELIVERY PENDING FEE FOR INCREMENT DELINQUENT DELIVERY FEE *Recipient (KYLE GEARY) TO BE REIMBURSED UPON DELIVERY * SHIPPER HAS OPTED FOR CASH PAYMENT $200 *",
-                    "updatedBy": "Post Plus Logistics"
+                    "status": "ON HOLD",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "*  FINAL DELIVERY PENDING FEE FOR INCREMENT DELIQUENT DELIVERY FEE *Recipient (KYLE GEARY ) TO BE REIMBURSED $450 UPON DELIVERY * RECEIVER HAS OPTED FOR CASH PAYMENT. * FEE REQUIRED: $200 *",
                 },
-                {
+                {   "date": "10/18/2025",
                     "time": "6:55 AM",
+                    "location": "Moores Corner Facility",
                     "status": "Pending Payment",
-                    "location": "Moores Corner Facility",
-                    "remarks": "Delivery placed on hold pending fee payment; Shipper notified by email",
-                    "updatedBy": "Post Plus Logistics"
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "Delivery placed on hold pending fee payment; Shipper notified by email"
+                    
                 },
-                {
+                {   
+                    "date": "10/18/2025",
                     "time": "6:45 AM",
+                    "location": "Moores Corner Facility",
                     "status": "Fee Assessment",
-                    "location": "Moores Corner Facility",
+                    "updatedBy": "Post Plus Logistics",
                     "remarks": "Increment delinquent delivery fee of $200 flagged; awaiting resolution",
-                    "updatedBy": "Post Plus Logistics"
                 },
-                {
+                {   
+                    "date": "10/18/2025",
                     "time": "6:30 AM",
+                    "location": "Moores Corner Facility",
                     "status": "Verification",
-                    "location": "Moores Corner Facility",
+                    "updatedBy": "Post Plus Logistics",
                     "remarks": "Recipient details verified; payment method confirmed as cash",
-                    "updatedBy": "Post Plus Logistics"
                 },
-                {
-                    "time": "6:15 AM",
-                    "status": "Processing",
+                {   
+                    "date": "10/18/2025",
+                    "time": "6:15 AM",    
                     "location": "Moores Corner Facility",
+                     "status": "Processing",
+                    "updatedBy": "Post Plus Logistics",
                     "remarks": "Package scanned and queued for final dispatch",
-                    "updatedBy": "Post Plus Logistics"
                 },
                 {
                     "date": "10/18/2025",
