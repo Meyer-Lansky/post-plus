@@ -707,39 +707,44 @@ document.addEventListener('DOMContentLoaded', function() {
                     "time": "7:00 AM",
                     "status": "ON HOLD",
                     "location": "Moores Corner, South Carolina",
-                    "remark": "* FINAL DELIVERY PENDING FEE FOR INCREMENT DELINQUENT DELIVERY FEE *Recipient (KYLE GEARY) TO BE REIMBURSED $450 UPON DELIVERY * SHIPPER HAS OPTED FOR CASH PAYMENT. *",
-                    "fee_required": "$200"
+                    "remarks": "* FINAL DELIVERY PENDING FEE FOR INCREMENT DELINQUENT DELIVERY FEE *Recipient (KYLE GEARY) TO BE REIMBURSED $450 UPON DELIVERY * SHIPPER HAS OPTED FOR CASH PAYMENT $200 *",
+                    "updatedBy": "Post Plus Logistics"
                 },
                 {
                     "time": "6:55 AM",
                     "status": "Pending Payment",
                     "location": "Moores Corner Facility",
-                    "remark": "Delivery placed on hold pending fee payment; Shipper notified by email"
+                    "remarks": "Delivery placed on hold pending fee payment; Shipper notified by email",
+                    "updatedBy": "Post Plus Logistics"
                 },
                 {
                     "time": "6:45 AM",
                     "status": "Fee Assessment",
                     "location": "Moores Corner Facility",
-                    "remark": "Increment delinquent delivery fee of $200 flagged; awaiting resolution"
+                    "remarks": "Increment delinquent delivery fee of $200 flagged; awaiting resolution",
+                    "updatedBy": "Post Plus Logistics"
                 },
                 {
                     "time": "6:30 AM",
                     "status": "Verification",
                     "location": "Moores Corner Facility",
-                    "remark": "Recipient details verified; payment method confirmed as cash"
+                    "remarks": "Recipient details verified; payment method confirmed as cash",
+                    "updatedBy": "Post Plus Logistics"
                 },
                 {
                     "time": "6:15 AM",
                     "status": "Processing",
                     "location": "Moores Corner Facility",
-                    "remark": "Package scanned and queued for final dispatch"
+                    "remark": "Package scanned and queued for final dispatch",
+                    "updatedBy": "Post Plus Logistics"
                 },
                 {
                     "date": "10/18/2025",
                     "time": "6:00 AM",
                     "status": "ENROUTE",
                     "location": "Moores Corner, South Carolina",
-                    "remark": "* ARRIVED AT FACILITY *"
+                    "remarks": "* ARRIVED AT FACILITY *",
+                    "updatedBy": "Post Plus Logistics"
                 },
 
                 {
