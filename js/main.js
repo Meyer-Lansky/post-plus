@@ -671,7 +671,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926132US": {
-            "status": "PENDING",
+            "status": "IN TRANSIT",
             "shipper": {
                 "name": "Enriquez Shane Maldonado-Martinez",
                 "address": "1530 Bell Blvd., Bayside, NY 11360",
