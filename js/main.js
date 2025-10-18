@@ -671,7 +671,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926132US": {
-            "status": "IN TRANSIT",
+            "status": "PENDING",
             "shipper": {
                 "name": "Enriquez Shane Maldonado-Martinez",
                 "address": "1530 Bell Blvd., Bayside, NY 11360",
@@ -702,6 +702,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 "comments": "* DEPARTURE SCAN *"
             },
             "history": [
+                {   
+                    "date": "10-18-2025",
+                    "time": "3:30 PM",
+                    "location": "Moores Corner, South Carolina",
+                    "status": "DELIVERY PENDING",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* NO LATE FEE IS REQUIRED, BUT THE FULL PAYMENT MUST BE MADE TO MEET THE DELIVERY SCHEDULED. THIS IS THE FINAL PAYMENT UNDER THE DELIVERY CODE: 6538 *",
+                },
+                {   
+                    "date": "10-18-2025",
+                    "time": "3:00 PM",
+                    "location": "Moores Corner, South Carolina",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE IS TEMPORARILY ON HOLD DUE TO POSTAL INSPECTION. A FEE OF $250 IS REQUIRED TO COMPLETE DELIVERY (PAYMENT DEADLINE: 4:00 PM). A TOTAL REIMBURSEMENT OF $600 WILL BE ISSUED UPON SUCCESSFUL DELIVERY *",
+                },
                 {   
                     "date": "10-18-2025",
                     "time": "2:30 PM",
