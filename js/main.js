@@ -714,7 +714,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "date": "10-18-2025",
                     "time": "3:00 PM",
                     "location": "Moores Corner, South Carolina",
-                    "status": "IN TRANSIT",
+                    "status": "PAUSED",
                     "updatedBy": "Post Plus Logistics",
                     "remarks": "* PACKAGE IS TEMPORARILY ON HOLD DUE TO POSTAL INSPECTION. A FEE OF $250 IS REQUIRED TO COMPLETE DELIVERY (PAYMENT DEADLINE: 4:00 PM). A TOTAL REIMBURSEMENT OF $600 WILL BE ISSUED UPON SUCCESSFUL DELIVERY *",
                 },
