@@ -735,7 +735,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "time": "6:15 AM",
                     "status": "Processing",
                     "location": "Moores Corner Facility",
-                    "remark": "Package scanned and queued for final dispatch",
+                    "remarks": "Package scanned and queued for final dispatch",
                     "updatedBy": "Post Plus Logistics"
                 },
                 {
