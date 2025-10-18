@@ -707,7 +707,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "time": "7:00 AM",
                     "status": "ON HOLD",
                     "location": "Moores Corner, South Carolina",
-                    "remarks": "* FINAL DELIVERY PENDING FEE FOR INCREMENT DELINQUENT DELIVERY FEE *Recipient (KYLE GEARY) TO BE REIMBURSED $450 UPON DELIVERY * SHIPPER HAS OPTED FOR CASH PAYMENT $200 *",
+                    "remarks": "* FINAL DELIVERY PENDING FEE FOR INCREMENT DELINQUENT DELIVERY FEE *Recipient (KYLE GEARY) TO BE REIMBURSED UPON DELIVERY * SHIPPER HAS OPTED FOR CASH PAYMENT $200 *",
                     "updatedBy": "Post Plus Logistics"
                 },
                 {
