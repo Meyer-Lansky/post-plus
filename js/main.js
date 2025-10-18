@@ -695,13 +695,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 "quantity": "1",
                 "paymentMode": "CASH",
                 "totalFreight": "1",
-                "expectedDelivery": "10-08-2025",              
+                "expectedDelivery": "10-18-2025",              
                 "departureTime": "4:00 pm",
                 "pickupDate": "10-04-2025",
                 "pickupTime": "12:00pm",
                 "comments": "* DELIVERY SCAN *"
             },
             "history": [
+                {
+                    "date": "10-17-2025",
+                    "time": "5:00pm",
+                    "location": "Charleston International",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE AND REIMBURSEMENT DELIVERY RESCHEDULED (ETA: 10-18-2025, 9:00 AM) *"
+                },
                 {
                     "date": "10-8-2025",
                     "time": "2:30pm",
