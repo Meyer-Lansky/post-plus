@@ -341,11 +341,27 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 {
                     "date": "10-28-2025",
-                    "time": "12:00 pm",
+                    "time": "1:30 pm",
+                    "location": "REDDING CT PACKAGE SORTING CENTER",
+                    "status": "ARRIVED AT SORTING CENTER",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE RECEIVED AT FACILITY *"
+                },
+                {
+                    "date": "10-28-2025",
+                    "time": "12:15 pm",
                     "location": "REDDING CT PACKAGE SORTING CENTER",
                     "status": "PICKED UP",
                     "updatedBy": "Post Plus Logistics",
                     "remarks": "* WE HAVE YOUR PACKAGE *"
+                },
+                {
+                    "date": "10-28-2025",
+                    "time": "12:00 pm",
+                    "location": "REDDING CT PACKAGE SORTING CENTER",
+                    "status": "LABEL CREATED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* SHIPMENT INFORMATION RECEIVED *"
                 }
             ],
             "packages": [
