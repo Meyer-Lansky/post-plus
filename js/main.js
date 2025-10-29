@@ -332,6 +332,38 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             "history": [
                 {
+                    "date": "10-29-2025",
+                    "time": "5:00 am",
+                    "location": "Cleveland, Ohio",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* DEPARTED FROM FACILITY *"
+                },
+                {
+                    "date": "10-29-2025",
+                    "time": "3:00 am",
+                    "location": "Cleveland, Ohio",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT FACILITY *"
+                },
+                {
+                    "date": "10-29-2025",
+                    "time": "1:00 am",
+                    "location": "Erie, Pennsylvania",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* DEPARTED FROM FACILITY *"
+                },
+                {
+                    "date": "10-28-2025",
+                    "time": "10:45 pm",
+                    "location": "Erie, Pennsylvania",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT FACILITY *"
+                },
+                {
                     "date": "10-28-2025",
                     "time": "3:00 pm",
                     "location": "REDDING CT PACKAGE SORTING CENTER",
