@@ -350,7 +350,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     "date": "10-28-2025",
                     "time": "12:15 pm",
-                    "location": "REDDING CT PACKAGE SORTING CENTER",
+                    "location": "REDDING, CONNECTICUT",
                     "status": "PICKED UP",
                     "updatedBy": "Post Plus Logistics",
                     "remarks": "* WE HAVE YOUR PACKAGE *"
@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     "date": "10-28-2025",
                     "time": "12:00 pm",
-                    "location": "REDDING CT PACKAGE SORTING CENTER",
+                    "location": "REDDING, CONNECTICUT",
                     "status": "LABEL CREATED",
                     "updatedBy": "Post Plus Logistics",
                     "remarks": "* SHIPMENT INFORMATION RECEIVED *"
