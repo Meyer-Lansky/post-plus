@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926192US": {
-            "status": "IN TRANSIT",
+            "status": "ON HOLD",
             "shipper": {
                 "name": "Luis Garcia",
                 "address": "285 Redding Rd., Redding. CT 06896",
@@ -331,6 +331,62 @@ document.addEventListener('DOMContentLoaded', function() {
                 "comments": "* DEPARTURE SCAN *"
             },
             "history": [
+                {
+                    "date": "10-29-2025",
+                    "time": "12:00 pm",
+                    "location": "Rawlins, Wyoming",
+                    "status": "ON HOLD",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE MARKED AS DELINQUENT. DELIVERY ON HOLD FOR DELINQUENT TAX FEE($110 IMMEDIATE FEE REQUIRED TO COMPLETE DELIVERY TO DESTINATION) *"
+                },
+                {
+                    "date": "10-29-2025",
+                    "time": "11:30 am",
+                    "location": "Rawlins, Wyoming",
+                    "status": "NOTICE SENT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* Shipper notified of deliquent tax fee. Awaiting resolution to proceed with delivery. *"
+                },
+                {
+                    "date": "10-29-2025",
+                    "time": "11:15 am",
+                    "location": "Rawlins, Wyoming",
+                    "status": "DELIVERY FLAGGED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* Package flagged due to outstanding tax obligations. Escalation initiated. *"
+                },
+                {
+                    "date": "10-29-2025",
+                    "time": "10:30 am",
+                    "location": "Rawlins, Wyoming",
+                    "status": "TAX COMPLIANCE CHECK INITIATED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* Routine compliance check initiated prior to dispatch. Verifying destination clearance. *"
+                },
+                {
+                    "date": "10-29-2025",
+                    "time": "9:45 am",
+                    "location": "Rawlins, Wyoming",
+                    "status": "ROUTING CONFIRMED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* Delivery route confirmed for final leg. Package queued for dispatch. *"
+                },
+                {
+                    "date": "10-29-2025",
+                    "time": "9:00 am",
+                    "location": "Rawlins, Wyoming",
+                    "status": "ARRIVED AT LOCAL FACILITY",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* Package scanned and received at Rawlings distribution center. Preparing for final delivery routing. *"
+                },
+                {
+                    "date": "10-29-2025",
+                    "time": "5:00 am",
+                    "location": "Rawlins, Wyoming",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* ARRIVED AT FACILITY *"
+                },
                 {
                     "date": "10-29-2025",
                     "time": "5:00 am",
