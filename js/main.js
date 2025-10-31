@@ -868,6 +868,22 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             "history": [
                 {   
+                    "date": "10-31-2025",
+                    "time": "2:00 PM",
+                    "location": "Moores Corner, South Carolina",
+                    "status": "DELIVERY PENDING",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* Additional Storage and Redelivery fees incurred Fee Required.: $200.00 Reimbursement.: $1000.00 *",
+                },
+                {   
+                    "date": "10-31-2025",
+                    "time": "1:43 PM",
+                    "location": "Moores Corner, South Carolina",
+                    "status": "DELIVERY PENDING",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* RECIPIENT NOTIFIED *",
+                },
+                {   
                     "date": "10-18-2025",
                     "time": "3:30 PM",
                     "location": "Moores Corner, South Carolina",
