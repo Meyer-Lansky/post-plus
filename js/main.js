@@ -860,7 +860,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 "quantity": "1",
                 "paymentMode": "CASH",
                 "totalFreight": "1",
-                "expectedDelivery": "10-18-2025",              
+                "expectedDelivery": "10-31-2025",              
                 "departureTime": "4:00 pm",
                 "pickupDate": "10-04-2025",
                 "pickupTime": "12:00pm",
