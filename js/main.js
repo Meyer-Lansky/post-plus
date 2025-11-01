@@ -836,7 +836,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926132US": {
-            "status": "PENDING",
+            "status": "ON HOLD",
             "shipper": {
                 "name": "Enriquez Shane Maldonado-Martinez",
                 "address": "1530 Bell Blvd., Bayside, NY 11360",
@@ -860,13 +860,29 @@ document.addEventListener('DOMContentLoaded', function() {
                 "quantity": "1",
                 "paymentMode": "CASH",
                 "totalFreight": "1",
-                "expectedDelivery": "10-31-2025",              
+                "expectedDelivery": "11-1-2025",              
                 "departureTime": "4:00 pm",
                 "pickupDate": "10-04-2025",
                 "pickupTime": "12:00pm",
-                "comments": "* DEPARTURE SCAN *"
+                "comments": "* DELIVERY SCAN *"
             },
             "history": [
+                {   
+                    "date": "11-1-2025",
+                    "time": "9:45 AM",
+                    "location": "Murrells Inlet, SC",
+                    "status": "ON HOLD",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE DELIVERY IN PROGRESS TOTAL CASH REIMBURSEMENT UPON DELIVERY ($1,000.00) DELIVERY CODE (6538) PAYMENT HAS BEEN APPROVED AND REIMBURSEMENT IS BEING PROCESSED FOR DELIVERY. THE LAST PAYMENT REQUIRED 10% OF THE ($1,000) *",
+                },
+                {   
+                    "date": "11-1-2025",
+                    "time": "8:45 AM",
+                    "location": "Moores Corner, South Carolina",
+                    "status": "IN TRANSIT",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* DELIVERY IN PROGRESS *",
+                },
                 {   
                     "date": "10-31-2025",
                     "time": "2:00 PM",
