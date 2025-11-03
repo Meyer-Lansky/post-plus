@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     "date": "09-20-2025",
                     "time": "2:30 pm",
-                    "location": "DELIVERY FACILITY ( LOMPOC,  CALIFORNIA )",
+                    "location": "DELIVERY FACILITY (LOMPOC, CALIFORNIA)",
                     "status": "DELIVERY IN PROGRESS",
                     "updatedBy": "Post Plus Logistics",
                     "remarks": "* PACKAGE DELIVERY IN PROGRESS (TOTAL CASH REIMBURSEMENT UPON DELIVERY: $650.00). RECEIVER HAS OPTED FOR CASH PAYMENT. *"
