@@ -836,7 +836,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926132US": {
-            "status": "IN TRANSIT",
+            "status": "PENDING",
             "shipper": {
                 "name": "Enriquez Shane Maldonado-Martinez",
                 "address": "1530 Bell Blvd., Bayside, NY 11360",
@@ -864,9 +864,33 @@ document.addEventListener('DOMContentLoaded', function() {
                 "departureTime": "4:00 pm",
                 "pickupDate": "10-04-2025",
                 "pickupTime": "12:00pm",
-                "comments": "* DELIVERY SCAN *"
+                "comments": "* Additional handling service required during transit *"
             },
             "history": [
+                {
+                    "date": "11-3-2025",
+                    "time": "12:00 AM",
+                    "location": "ON DELIVERY TRUCK",
+                    "status": "ACCESSORIAL CHARGE INCURRED",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* Charge Applied: $275.00 Action Needed: Payment required to proceed with delivery. Scheduled Delivery: On track for today, pending fee clearance *",
+                },
+                {
+                    "date": "11-3-2025",
+                    "time": "11:45 AM",
+                    "location": "ON DELIVERY TRUCK",
+                    "status": "DELIVERY EXCEPTION",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* Additional service required during handling. Accessorial charge incurred. Delivery still expected today. *",
+                },
+                {
+                    "date": "11-3-2025",
+                    "time": "11:45 AM",
+                    "location": "ON DELIVERY TRUCK",
+                    "status": "DELIVERY EXCEPTION",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "*  Additional service required during handling. Accessorial charge incurred. Delivery still expected today. Pending $250 fee payment made for *",
+                },
                 {
                     "date": "11-3-2025",
                     "time": "9:45 AM",
