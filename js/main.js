@@ -129,176 +129,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 4. Sample shipment data - use your complete datasets
     const shipments = {
-        "PP016926117US": {
-            "status": "ON HOLD",
-            "shipper": {
-                "name": "COREY PFEIFER LARIMER",
-                "address": "80 N CENTER ST SANTAQUIN, UT 84655",
-                "phone": "(567) 704-1480"
-            },
-            "receiver": {
-                "name": "SAMANTHA CRUMPTON",
-                "address": "1517 HOBSON DR APARTMENT 5 RANTOUL, IL 61866",
-                "phone": "(517) 599-6991"
-            },
-            "shipmentInfo": {
-                "origin": "United States",
-                "destination": "United States",
-                "package": "VALVE INDEX FULL VR SET",
-                "carrier": "DHL",
-                "shipmentType": "Expresss",
-                "weight": "12 LBS",
-                "shipmentMode": "Land Shipping",
-                "carrierRef": "016926117",
-                "product": "VALVE INDEX FULL VR SET",
-                "quantity": "1",
-                "paymentMode": "CASH",
-                "totalFreight": "1",
-                "expectedDelivery": "05-30-2025",
-                "departureTime": "18:00 pm",
-                "pickupDate": "05-28-2025",
-                "pickupTime": "16:30 pm",
-                "comments": "* DELIVERY SCAN *"
-            },
-            "history": [
-                {
-                    "date": "05-30-2025",
-                    "time": "11:00 am",
-                    "location": "DELIVERY CENTER",
-                    "status": "On Hold",
-                    "updatedBy": "PostPlus Logistics",
-                    "remarks": "PACKAGE MARKED AS DELINQUENT. DELIVERY ON HOLD FOR FUEL AND ADDITIONAL HANDLING SURCHARGES (IMMEDIATE $100 FEE REQUIRED TO COMPLETE DELIVERY)"
-                },
-                {
-                    "date": "05-30-2025",
-                    "time": "6:30 am",
-                    "location": "IL DISTRIBUTION CENTER",
-                    "status": "Enroute",
-                    "updatedBy": "PostPlus Logistics",
-                    "remarks": "Arrived at Hub"
-                },
-                {
-                    "date": "05-29-2025",
-                    "time": "10:30 am",
-                    "location": "MOVING THROUGH NETWORK",
-                    "status": "In Transit",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "InTransit to Next Facility"
-                },
-                {
-                    "date": "05-28-2025",
-                    "time": "18:00 pm",
-                    "location": "UT DISTRIBUTION CENTER",
-                    "status": "In Transit",
-                    "updatedBy": "PostPlus Logistics",
-                    "remarks": "PACKAGE SUCESSFULLY SHIPPED TO DESTINATION"
-                },
-                {
-                    "date": "05-28-2025",
-                    "time": "16:30 pm",
-                    "location": "UT DISTRIBUTION CENTER",
-                    "status": "Picked Up",
-                    "updatedBy": "PostPlus Logistics",
-                    "remarks": "* WE HAVE YOUR PACKAGE *"
-                }
-            ],
-            "packages": [
-                {
-                    "quantity": "1",
-                    "pieceType": "Box",
-                    "description": "VALVE INDEX FULL VR SET",
-                    "length": "150",
-                    "width": "100",
-                    "height": "80",
-                    "weight": "12"
-                }
-            ]
-        },
-        "PP016926119US": {
-            "status": "ON HOLD",
-            "shipper": {
-                "name": "Travis Triggs",
-                "address": "400 Emery Dr, LONGMONT, CO 80501",
-                "phone": "(567) 704-1480"
-            },
-            "receiver": {
-                "name": "Ryan Klopack",
-                "address": "8420 E MONTEBELLO AVE, SCOTTSDALE, AZ 85250",
-                "phone": "(972) 839-8938"
-            },
-            "shipmentInfo": {
-                "origin": "United States",
-                "destination": "United States",
-                "package": "SONY ALPHA ZV-E10 CAMERA",
-                "carrier": "DHL",
-                "shipmentType": "Express",
-                "weight": "4 LBS",
-                "shipmentMode": "Land Shipping",
-                "carrierRef": "016926119",
-                "product": "SONY ALPHA ZV-E10 CAMERA",
-                "quantity": "1",
-                "paymentMode": "CASH",
-                "totalFreight": "1",
-                "expectedDelivery": "09-05-2025",
-                "departureTime": "18:30 pm",
-                "pickupDate": "09-03-2025",
-                "pickupTime": "17:45 pm",
-                "comments": "* DELIVERY SCAN *"
-            },
-            "history": [
-                {
-                    "date": "09-05-2025",
-                    "time": "9:45 am",
-                    "location": "AZ DISTRIBUTION CENTER",
-                    "status": " ON HOLD",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "*  FINAL DELIVERY PENDING FEE FOR INCREMENT DELIQUENT DELIVERY FEE *Recipient (KYLE GEARY ) TO BE REIMBURSED $450 UPON DELIVERY * RECEIVER HAS OPTED FOR CASH PAYMENT. * FEE REQUIRED: $200 *"
-                },
-                {
-                    "date": "09-05-2025",
-                    "time": "7:30 am",
-                    "location": "AZ REGIONAL DISTRIBUTION CENTER",
-                    "status": "Enroute",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* ARRIVED AT FACILITY *"
-                },
-                {
-                    "date": "09-04-2025",
-                    "time": "12:00 pm",
-                    "location": "MOVING THROUGH NETWORK",
-                    "status": "In Transit",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* IN TRANSIT TO NEXT FACILITY *"
-                },
-                {
-                    "date": "09-03-2025",
-                    "time": "18:30 pm",
-                    "location": "LONGMONT CO PACKAGE SORTING CENTER",
-                    "status": "In Transit",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* DEPARTED FROM FACILITY *"
-                },
-                {
-                    "date": "09-03-2025",
-                    "time": "17:45 pm",
-                    "location": "LONGMONT, CO 80501",
-                    "status": "Picked Up",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* WE HAVE YOUR PACKAGE *"
-                }
-            ],
-            "packages": [
-                {
-                    "quantity": "1",
-                    "pieceType": "Box",
-                    "description": "SONY ALPHA ZV-E10 CAMERA",
-                    "length": "120",
-                    "width": "80",
-                    "height": "60",
-                    "weight": "6 LBS"
-                }
-            ]
-        },
         "PP016926192US": {
             "status": "ON HOLD",
             "shipper": {
@@ -683,157 +513,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "height": "60",
                     "weight": "10 LBS"
                 }
-            ]
-        ,
-    },
-    "PP016926130US": {
-            "status": "ON HOLD",
-            "shipper": {
-                "name": "MATTHEW ALEJOS",
-                "address": "6699 ANDERSONVILLE RD, CLARKSTON, MI 48346",
-                "phone": "(646) 493-8767"
-            },
-            "receiver": {
-                "name": "RENE GARCIA",
-                "address": "1905 19TH PLACE SE, AUBURN, WA 98092",
-                "phone": "(206) 833-9154"
-            },
-            "shipmentInfo": {
-                "origin": "United States",
-                "destination": "United States",
-                "package": "VALVE INDEX FULL VR KIT",
-                "carrier": "DHL",
-                "shipmentType": "Express",
-                "weight": "10 LBS",
-                "shipmentMode": "Land Shipping",
-                "carrierRef": "016926130",
-                "product": "VALVE INDEX FULL VR KIT",
-                "quantity": "1",
-                "paymentMode": "CASH",
-                "totalFreight": "1",
-                "expectedDelivery": "9-24-2025",
-                "departureTime": "6:00 pm",
-                "pickupDate": "9-22-2025",
-                "pickupTime": "4:00 pm",
-                "comments": "* DELIVERY SCAN *"
-            },
-            "history": [          
-                {
-                    "date": "09-24-2025",
-                    "time": "9:30 am",
-                    "location": "WA DISTRIBUTION CENTER",
-                    "status": "ON HOLD",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* PACKAGE MARKED AS DELINQUENT. DELIVERY ON HOLD FOR DELINQUENT TAX FEE($110 IMMEDIATE FEE REQUIRED TO COMPLETE DELIVERY) *"
-                },
-                {
-                    "date": "09-24-2025",
-                    "time": "8:45 am",
-                    "location": "WA REGIONAL DISTRIBUTION CENTER",
-                    "status": "REVIEWED",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* DELINQUENT TAX IDENTIFIED. ESCALATED TO HOLD STATUS *"
-                },
-                {
-                    "date": "09-24-2025",
-                    "time": "8:00 am",
-                    "location": "WA REGIONAL DISTRIBUTION CENTER",
-                    "status": "FLAGGED",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* PACKAGE FLAGGED FOR TAX COMPLIANCE REVIEW *"
-                },
-                {
-                    "date": "09-24-2025",
-                    "time": "7:30 am",
-                    "location": "WA REGIONAL DISTRIBUTION CENTER",
-                    "status": "INSPECTION",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* ROUTINE PACKAGE VERIFICATION INITIATED *"
-                },
-                {
-                    "date": "09-24-2025",
-                    "time": "7:00 am",
-                    "location": "WA REGIONAL DISTRIBUTION CENTER",
-                    "status": "CHECK-IN",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* PACKAGE SCANNED INTO FACILITY *"
-                },
-                {
-                    "date": "09-24-2025",
-                    "time": "6:30 am",
-                    "location": "WA REGIONAL DISTRIBUTION CENTER",
-                    "status": "ENROUTE",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* ARRIVED AT HUB *"
-                },
-                {
-                    "date": "09-24-2025",
-                    "time": "2:00 am",
-                    "location": "  BOZEMAN, MONTANA ",
-                    "status": "IN TRANSIT",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* DEPARTED FROM FACILITY *"
-                },
-                {
-                    "date": "09-23-2025",
-                    "time": "11:30 pm",
-                    "location": " BOZEMAN, MONTANA ",
-                    "status": "IN TRANSIT",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* ARRIVED AT FACILITY *"
-                },
-                {
-                    "date": "09-23-2025",
-                    "time": "4:30 pm",
-                    "location": " DICKINSON, NORTH DAKOTA ",
-                    "status": "IN TRANSIT",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* DEPARTED FROM FACILITY *"
-                },
-                {
-                    "date": "09-23-2025",
-                    "time": "11:00 am",
-                    "location": " DICKINSON, NORTH DAKOTA ",
-                    "status": "IN TRANSIT",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* ARRIVED AT FACILITY *"
-                },
-                {
-                    "date": "09-22-2025",
-                    "time": "6:00 pm",
-                    "location": " CLARKSTON MI PACKAGE SORTING CENTER ",
-                    "status": "IN TRANSIT",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* DEPARTED FROM FACILITY *"
-                },
-                {
-                    "date": "09-22-2025",
-                    "time": "4:10 pm",
-                    "location": " CLARKSTON MI PACKAGE SORTING CENTER ",
-                    "status": "PICKED UP",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* WE HAVE YOUR PACKAGE *"
-                },
-                {
-                    "date": "09-22-2025",
-                    "time": "4:00 pm",
-                    "location": " CLARKSTON MI PACKAGE SORTING CENTER ",
-                    "status": "CREATED SHIPMENT",
-                    "updatedBy": "Post Plus Logistics",
-                    "remarks": "* SHIPMENT CREATED, PROCESSING FOR PICKUP *"
-                }
             ],
-            "packages": [
-                {
-                    "quantity": "1",
-                    "pieceType": "Box",
-                    "description": "VALVE INDEX FULL VR KIT",
-                    "length": "120",
-                    "width": "80",
-                    "height": "60",
-                    "weight": "10 LBS"
-                }
-            ]
         },
         "PP016926132US": {
             "status": "PENDING",
@@ -1246,9 +926,62 @@ document.addEventListener('DOMContentLoaded', function() {
                     "height": "60",
                     "weight": "10 LBS"
                 }
-            ]
-        }
-    };
+            ],
+            },  
+            "PP016937174US": {
+                "status": "LABEL CREATED",
+                "shipper": {
+                    "name": "Paul Colon",
+                    "address": "2410 Smokey Canyon Rd, Auburn, ID 83111",
+                    "phone": "(208) 480-2421"
+                },
+                "receiver": {
+                    "name": "Jesus Mancera",
+                    "address": "1953 S. WW White Rd, San Antonio, TX 78222",
+                    "phone": "(726) 228-4797"
+                },
+                "shipmentInfo": {
+                    "origin": "United States",
+                    "destination": "United States",
+                    "package": "SONY A7iii CAMERA",
+                    "carrier": "DHL",
+                    "shipmentType": "Express",
+                    "weight": "10 LBS",
+                    "shipmentMode": "Land Shipping",
+                    "carrierRef": "016937174",
+                    "product": "SONY A7iii CAMERA",
+                    "quantity": "1",
+                    "paymentMode": "CASH",
+                    "totalFreight": "1",
+                    "expectedDelivery": "11-5-2025",
+                    "departureTime": "6:00 pm",
+                    "pickupDate": "11-3-2025",
+                    "pickupTime": "4:00 pm",
+                    "comments": "* PICKUP SCAN *"
+                },
+                "history": [          
+                    {
+                        "date": "11-3-2025",
+                        "time": "12:00 pm",
+                        "location": "WA DISTRIBUTION CENTER",
+                        "status": "SHIPPING LABEL CREATED",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* SHIPMENT INFORMATION RECEIVED *"
+                    },
+                ],
+                "packages": [
+                    {
+                        "quantity": "1",
+                        "pieceType": "Box",
+                        "description": "SONY A7iii CAMERA",
+                        "length": "120",
+                        "width": "80",
+                        "height": "60",
+                        "weight": "10 LBS"
+                    }
+                ],
+            },
+        };
 
      // 5. Form submission handler - FIXED
     trackForm.addEventListener('submit', function(e) {
