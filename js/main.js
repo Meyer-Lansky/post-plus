@@ -929,7 +929,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ],
             },  
             "PP016937174US": {
-                "status": "LABEL CREATED",
+                "status": "IN TRANSIT",
                 "shipper": {
                     "name": "Paul Colon",
                     "address": "2410 Smokey Canyon Rd, Auburn, ID 83111",
@@ -943,13 +943,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 "shipmentInfo": {
                     "origin": "United States",
                     "destination": "United States",
-                    "package": "SONY A7iii CAMERA",
+                    "package": "SONY A7iii CAMERA + LENS",
                     "carrier": "DHL",
                     "shipmentType": "Express",
                     "weight": "10 LBS",
                     "shipmentMode": "Land Shipping",
                     "carrierRef": "016937174",
-                    "product": "SONY A7iii CAMERA",
+                    "product": "SONY A7iii CAMERA + LENS",
                     "quantity": "1",
                     "paymentMode": "CASH",
                     "totalFreight": "1",
@@ -957,9 +957,33 @@ document.addEventListener('DOMContentLoaded', function() {
                     "departureTime": "6:00 pm",
                     "pickupDate": "11-3-2025",
                     "pickupTime": "4:00 pm",
-                    "comments": "* PICKUP SCAN *"
+                    "comments": "* DEPARTURE SCAN *"
                 },
-                "history": [          
+                "history": [  
+                    {
+                        "date": "11-3-2025",
+                        "time": "3:00 pm",
+                        "location": "AUBURN ID PACKAGE SORTING CENTER",
+                        "status": "ARRIVED AT SORTING CENTER",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* PACKAGE RECEIVED AT FACILITY *"
+                    },
+                    {
+                        "date": "11-3-2025",
+                        "time": "1:45 pm",
+                        "location": "AUBURN ID PACKAGE SORTING CENTER",
+                        "status": "ARRIVED AT SORTING CENTER",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* PACKAGE RECEIVED AT FACILITY *"
+                    }, 
+                    {
+                        "date": "11-3-2025",
+                        "time": "1:00 pm",
+                        "location": "AUBURN, IDAHO",
+                        "status": "PICKED UP",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* WE HAVE YOUR PACKAGE *"
+                    },       
                     {
                         "date": "11-3-2025",
                         "time": "12:00 pm",
@@ -973,7 +997,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     {
                         "quantity": "1",
                         "pieceType": "Box",
-                        "description": "SONY A7iii CAMERA",
+                        "description": "SONY A7iii CAMERA + LENS",
                         "length": "120",
                         "width": "80",
                         "height": "60",
