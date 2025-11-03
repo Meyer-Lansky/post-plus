@@ -963,7 +963,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     {
                         "date": "11-3-2025",
                         "time": "12:00 pm",
-                        "location": "WA DISTRIBUTION CENTER",
+                        "location": "AUBURN, IDAHO",
                         "status": "SHIPPING LABEL CREATED",
                         "updatedBy": "Post Plus Logistics",
                         "remarks": "* SHIPMENT INFORMATION RECEIVED *"
