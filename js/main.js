@@ -966,7 +966,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         "location": "AUBURN ID PACKAGE SORTING CENTER",
                         "status": "ARRIVED AT SORTING CENTER",
                         "updatedBy": "Post Plus Logistics",
-                        "remarks": "* PACKAGE RECEIVED AT FACILITY *"
+                        "remarks": "* DEPARTED FROM FACILITY *"
                     },
                     {
                         "date": "11-3-2025",
