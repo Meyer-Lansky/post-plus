@@ -836,7 +836,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926132US": {
-            "status": "PENDING",
+            "status": "IN TRANSIT",
             "shipper": {
                 "name": "Enriquez Shane Maldonado-Martinez",
                 "address": "1530 Bell Blvd., Bayside, NY 11360",
@@ -867,6 +867,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 "comments": "* DELIVERY SCAN *"
             },
             "history": [
+                {
+                    "date": "11-3-2025",
+                    "time": "9:45 AM",
+                    "location": "ON DELIVERY TRUCK",
+                    "status": "DELIVERY ON SCHEDULE",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* PACKAGE & CASH REIMBURSEMENT APPROVED FOR DELIVERY ETA FOR DELIVERY 12:30 PM  *",
+                },
                 {
                     "date": "11-3-2025",
                     "time": "7:30 AM",
