@@ -549,7 +549,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "history": [
                 {
                     "date": "11-3-2025",
-                    "time": "12:00 AM",
+                    "time": "12:00 PM",
                     "location": "ON DELIVERY TRUCK",
                     "status": "ACCESSORIAL CHARGE INCURRED",
                     "updatedBy": "Post Plus Logistics",
