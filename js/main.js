@@ -836,7 +836,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         },
         "PP016926132US": {
-            "status": "ON HOLD",
+            "status": "PENDING",
             "shipper": {
                 "name": "Enriquez Shane Maldonado-Martinez",
                 "address": "1530 Bell Blvd., Bayside, NY 11360",
@@ -860,13 +860,53 @@ document.addEventListener('DOMContentLoaded', function() {
                 "quantity": "1",
                 "paymentMode": "CASH",
                 "totalFreight": "1",
-                "expectedDelivery": "11-1-2025",              
+                "expectedDelivery": "11-3-2025",              
                 "departureTime": "4:00 pm",
                 "pickupDate": "10-04-2025",
                 "pickupTime": "12:00pm",
                 "comments": "* DELIVERY SCAN *"
             },
             "history": [
+                {
+                    "date": "11-3-2025",
+                    "time": "7:30 AM",
+                    "location": "Murrells Inlet, SC",
+                    "status": "PENDING",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* FINAL DELIVERY PENDING FEE FOR INCREMENT DELIQUENT DELIVERY FEE *",
+                },
+                {
+                    "date": "11-3-2025",
+                    "time": "7:00 AM",
+                    "location": "Murrells Inlet, SC",
+                    "status": "DELIVERY PAUSE",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* FINAL DELIVERY PENDING FEE FOR  increment delinquent delivery fee Deadline 9:30 AM 11/03/2025 * Recipient: (KYLE GEARY) to be reimbursed $1200.00 upon delivery * FEE REQUIRED: $200 *",
+                },
+                {
+                    "date": "11-3-2025",
+                    "time": "6:30 AM",
+                    "location": "DELIVERY FACILITY ( MURRELLS INLET, SC)",
+                    "status": "PENDING",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "* FINAL DELIVERY PENDING FEE FOR increment delinquent delivery fee *",
+                },
+                {
+                    "date": "11-3-2025",
+                    "time": "6:20 AM",
+                    "location": "Murrells Inlet, SC",
+                    "status": "AWAITING CLEARANCE",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "PACKAGE DISPATCHED FOR DELIVERY",
+                },
+                {
+                    "date": "11-3-2025",
+                    "time": "6:00 AM",
+                    "location": "Murrells Inlet, SC",
+                    "status": "IN PROCESS",
+                    "updatedBy": "Post Plus Logistics",
+                    "remarks": "PACKAGE LOADED ONTO TRUCK",
+                },
                 {   
                     "date": "11-1-2025",
                     "time": "9:45 AM",
