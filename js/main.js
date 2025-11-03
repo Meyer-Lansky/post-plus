@@ -750,7 +750,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     "date": "10-8-2025",
                     "time": "1:45pm",
-                    "location": "SC Distribution Center – Loading Bay",
+                    "location": "SC Distribution Center - Loading Bay",
                     "status": "ENROUTE",
                     "updatedBy": "Post Plus Logistics",
                     "remarks": "* PACKAGE LOADED ONTO DISPATCHER DELIVERY VEHICLE *"
