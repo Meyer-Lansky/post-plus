@@ -961,6 +961,46 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 "history": [  
                     {
+                        "date": "11-4-2025",
+                        "time": "7:30 am",
+                        "location": "Albuquerque, New Mexico",
+                        "status": "IN TRANSIT",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* DEPARTED FROM FACILITY *"
+                    },
+                    {
+                        "date": "11-4-2025",
+                        "time": "6:30 am",
+                        "location": "Albuquerque, New Mexico",
+                        "status": "IN TRANSIT",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* ARRIVED AT FACILITY *"
+                    },
+                    {
+                        "date": "11-4-2025",
+                        "time": "5:00 am",
+                        "location": "Farmington, NM",
+                        "status": "IN TRANSIT",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* Cleared through New Mexico inbound processing center. *"
+                    },
+                    {
+                        "date": "11-3-2025",
+                        "time": "11:00 pm",
+                        "location": "Moab, UT",
+                        "status": "IN TRANSIT",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* In transit stop – Refueling and logistics check. No delays reported *"
+                    },
+                    {
+                        "date": "11-3-2025",
+                        "time": "9:30 pm",
+                        "location": "Moab, UT",
+                        "status": "IN TRANSIT",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* ARRIVED AT FACILITY *"
+                    },
+                    {
                         "date": "11-3-2025",
                         "time": "3:00 pm",
                         "location": "AUBURN ID PACKAGE SORTING CENTER",
