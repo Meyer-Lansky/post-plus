@@ -953,13 +953,61 @@ document.addEventListener('DOMContentLoaded', function() {
                     "quantity": "1",
                     "paymentMode": "CASH",
                     "totalFreight": "1",
-                    "expectedDelivery": "11-5-2025",
+                    "expectedDelivery": "11-6-2025",
                     "departureTime": "3:00 pm",
                     "pickupDate": "11-3-2025",
                     "pickupTime": "1:00 pm",
                     "comments": "* DEPARTURE SCAN *"
                 },
-                "history": [  
+                "history": [
+                    {
+                        "date": "11-5-2025",
+                        "time": "7:30 am",
+                        "location": "Fort Stockton, Texas",
+                        "status": "IN TRANSIT",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* Overnight hold due to limited driver availability – Delivery rescheduled ETA: 11/06/2025 12:00 PM *"
+                    },
+                    {
+                        "date": "11-5-2025",
+                        "time": "6:30 am",
+                        "location": "Fort Stockton, Texas",
+                        "status": "IN TRANSIT",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* Shipment in transit – Resuming route after delay. *"
+                    },
+                    {
+                        "date": "11-5-2025",
+                        "time": "12:00 am",
+                        "location": "Truth or Consequences, NM",
+                        "status": "IN TRANSIT",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* Shipment in transit – Resuming route after delay. *"
+                    },
+                    {
+                        "date": "11-5-2025",
+                        "time": "12:00 pm",
+                        "location": "Socorro, NM",
+                        "status": "IN TRANSIT",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* Shipment in transit – Resuming route after delay. *"
+                    },
+                    {
+                        "date": "11-4-2025",
+                        "time": "9:00 pm",
+                        "location": "Socorro, NM",
+                        "status": "PAUSED",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* Mechanical delay reported – Temporary hold for vehicle inspection *"
+                    },  
+                    {
+                        "date": "11-4-2025",
+                        "time": "6:45 pm",
+                        "location": "Socorro, NM",
+                        "status": "IN TRANSIT",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* ARRIVED AT FACILITY *"
+                    },  
                     {
                         "date": "11-4-2025",
                         "time": "7:30 am",
