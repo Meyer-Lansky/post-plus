@@ -962,6 +962,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 "history": [
                     {
                         "date": "11-6-2025",
+                        "time": "12:45 pm",
+                        "location": "Van Horn, TX",
+                        "status": "IN TRANSIT",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* Route verified - inTransit to San Antonio. *"
+                    },
+                    {
+                        "date": "11-6-2025",
                         "time": "10:00 am",
                         "location": "El Paso, TX",
                         "status": "IN TRANSIT",
