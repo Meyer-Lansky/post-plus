@@ -929,7 +929,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ],
             },  
             "PP016937174US": {
-                "status": "IN TRANSIT",
+                "status": "ON HOLD",
                 "shipper": {
                     "name": "Paul Colon",
                     "address": "2410 Smokey Canyon Rd, Auburn, ID 83111",
@@ -957,9 +957,25 @@ document.addEventListener('DOMContentLoaded', function() {
                     "departureTime": "3:00 pm",
                     "pickupDate": "11-3-2025",
                     "pickupTime": "1:00 pm",
-                    "comments": "* DEPARTURE SCAN *"
+                    "comments": "* DELIVERY SCAN *"
                 },
                 "history": [
+                    {
+                        "date": "11-6-2025",
+                        "time": "4:30 pm",
+                        "location": "Sonora, Texas",
+                        "status": "ON HOLD",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* Charge Applied.: $50.00. Estimated Delivery: On track, pending fee clearance. *"
+                    },
+                    {
+                        "date": "11-6-2025",
+                        "time": "4:15 pm",
+                        "location": "Sonora, Texas",
+                        "status": "Accessorial Charge Incurred",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* Additional handling service required during transit. Action Needed: Payment required to proceed with delivery.*"
+                    },
                     {
                         "date": "11-6-2025",
                         "time": "12:45 pm",
