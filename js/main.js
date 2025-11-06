@@ -961,6 +961,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 "history": [
                     {
+                        "date": "11-6-2025",
+                        "time": "10:00 am",
+                        "location": "El Paso, TX",
+                        "status": "IN TRANSIT",
+                        "updatedBy": "Post Plus Logistics",
+                        "remarks": "* Arrived at regional checkpoint – Cleared for entry into central Texas. *"
+                    },
+                    {
                         "date": "11-5-2025",
                         "time": "7:30 am",
                         "location": "Fort Stockton, Texas",
@@ -978,16 +986,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     },
                     {
                         "date": "11-5-2025",
-                        "time": "12:00 am",
-                        "location": "Truth or Consequences, NM",
-                        "status": "IN TRANSIT",
-                        "updatedBy": "Post Plus Logistics",
-                        "remarks": "* Shipment in transit – Resuming route after delay. *"
-                    },
-                    {
-                        "date": "11-5-2025",
                         "time": "12:00 pm",
-                        "location": "Socorro, NM",
+                        "location": "Truth or Consequences, NM",
                         "status": "IN TRANSIT",
                         "updatedBy": "Post Plus Logistics",
                         "remarks": "* Shipment in transit – Resuming route after delay. *"
